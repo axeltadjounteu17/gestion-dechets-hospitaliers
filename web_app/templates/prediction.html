@@ -1,0 +1,438 @@
+{% extends "base.html" %} {% block title %}Prédiction - Gestion Déchets
+Hospitaliers{% endblock %} {% block content %}
+<div class="fade-in">
+  <div class="row mb-4">
+    <div class="col-12">
+      <h2 class="text-white fw-bold mb-3">
+        <i class="fas fa-brain"></i> Prédiction par IA
+      </h2>
+      <p class="text-white-50">
+        Utilisez nos modèles pour prédire le coût, le risque et le mode
+        d'élimination
+      </p>
+    </div>
+  </div>
+
+  <div class="row g-4">
+    <!-- Formulaire -->
+    <div class="col-lg-6">
+      <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <i class="fas fa-edit"></i> Informations du Déchet
+          </h5>
+        </div>
+        <div class="card-body p-4">
+          <form id="predictionForm">
+            <!-- 1. Localisation (Cascade) -->
+            <div class="location-section mb-4 pb-3 border-bottom">
+              <h6 class="text-muted text-uppercase small ls-1 mb-3">
+                Localisation
+              </h6>
+
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label class="form-label fw-bold">Pays</label>
+                  <select
+                    class="form-select"
+                    name="pays"
+                    id="paysSelect"
+                    required
+                  >
+                    <option value="">Sélectionner...</option>
+                    {% for p in options.pays %}
+                    <option value="{{ p }}">{{ p }}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label class="form-label fw-bold">Région</label>
+                  <select
+                    class="form-select"
+                    name="region"
+                    id="regionSelect"
+                    required
+                    disabled
+                  >
+                    <option value="">D'abord choisir un pays...</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label fw-bold">Hôpital</label>
+                <select
+                  class="form-select"
+                  name="hopital"
+                  id="hopitalSelect"
+                  required
+                  disabled
+                >
+                  <option value="">D'abord choisir une région...</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- 2. Détails du Déchet -->
+            <div class="details-section">
+              <h6 class="text-muted text-uppercase small ls-1 mb-3">
+                Détails Logistiques
+              </h6>
+
+              <div class="mb-3">
+                <label class="form-label fw-bold">Type de Déchet</label>
+                <select
+                  class="form-select"
+                  name="type_dechet"
+                  id="typeDechetSelect"
+                  required
+                >
+                  <option value="">Sélectionner...</option>
+                  {% for t in options.types_dechet %}
+                  <option value="{{ t }}">{{ t }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label class="form-label fw-bold">Poids (kg)</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    name="poids_kg"
+                    step="0.01"
+                    min="0"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label class="form-label fw-bold">Distance (km)</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    name="distance_km"
+                    step="0.01"
+                    min="0"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label fw-bold">Type de Conteneur</label>
+                <select
+                  class="form-select"
+                  name="type_conteneur"
+                  id="conteneurSelect"
+                  required
+                >
+                  <option value="">Sélectionner...</option>
+                  {% for c in options.conteneurs %}
+                  <option value="{{ c }}">{{ c }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+
+              <div class="mb-4">
+                <label class="form-label fw-bold">Service d'Origine</label>
+                <select
+                  class="form-select"
+                  name="service_origine"
+                  id="serviceSelect"
+                  required
+                >
+                  <option value="">Sélectionner...</option>
+                  {% for s in options.services %}
+                  <option value="{{ s }}">{{ s }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 btn-lg">
+              <i class="fas fa-magic"></i> Lancer la Prédiction
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Résultats -->
+    <div class="col-lg-6">
+      <div class="card" id="resultsCard" style="display: none">
+        <div class="card-header">
+          <h5 class="mb-0">
+            <i class="fas fa-chart-pie"></i> Résultats de la Prédiction
+          </h5>
+        </div>
+        <div class="card-body p-4">
+          <div class="alert alert-success mb-4">
+            <i class="fas fa-check-circle"></i> Prédiction effectuée avec succès
+            !
+          </div>
+
+          <div class="result-item mb-4 p-4 bg-light rounded">
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <small class="text-muted d-block mb-1">Coût Estimé</small>
+                <h3 class="mb-0 fw-bold text-primary" id="result-cout">-</h3>
+              </div>
+              <i class="fas fa-coins fa-3x text-primary opacity-25"></i>
+            </div>
+          </div>
+
+          <div class="result-item mb-4 p-4 bg-light rounded">
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <small class="text-muted d-block mb-1">Niveau de Risque</small>
+                <h4 class="mb-0 fw-bold" id="result-risque">-</h4>
+              </div>
+              <i
+                class="fas fa-exclamation-triangle fa-3x opacity-25"
+                id="icon-risque"
+              ></i>
+            </div>
+          </div>
+
+          <div class="result-item mb-4 p-4 bg-light rounded">
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <small class="text-muted d-block mb-1"
+                  >Mode d'Élimination</small
+                >
+                <h4 class="mb-0 fw-bold text-info" id="result-elimination">
+                  -
+                </h4>
+              </div>
+              <i class="fas fa-fire fa-3x text-info opacity-25"></i>
+            </div>
+          </div>
+
+          <div class="result-item p-4 bg-light rounded">
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <small class="text-muted d-block mb-1"
+                  >Conformité Prédite</small
+                >
+                <h4 class="mb-0 fw-bold text-success" id="result-conformite">
+                  -
+                </h4>
+              </div>
+              <i class="fas fa-check-circle fa-3x text-success opacity-25"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Placeholder avant prédiction -->
+      <div class="card" id="placeholderCard">
+        <div class="card-body p-5 text-center">
+          <i class="fas fa-robot fa-5x text-muted mb-4 opacity-25"></i>
+          <h4 class="text-muted">En attente de prédiction</h4>
+          <p class="text-muted">
+            Remplissez le formulaire et cliquez sur "Lancer la Prédiction"
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %} {% block extra_js %}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Éléments du DOM
+    const paysSelect = document.getElementById("paysSelect");
+    const regionSelect = document.getElementById("regionSelect");
+    const hopitalSelect = document.getElementById("hopitalSelect");
+
+    // Autres selects (pour mise à jour potentielle)
+    const typeDechetSelect = document.getElementById("typeDechetSelect");
+    const conteneurSelect = document.getElementById("conteneurSelect");
+    const serviceSelect = document.getElementById("serviceSelect");
+
+    // Helper: Reset and populate select
+    function updateSelect(
+      select,
+      options,
+      defaultText = "Sélectionner...",
+      disabled = false
+    ) {
+      select.innerHTML = `<option value="">${defaultText}</option>`;
+      select.disabled = disabled;
+
+      options.forEach((opt) => {
+        const option = document.createElement("option");
+        option.value = opt;
+        option.textContent = opt;
+        select.appendChild(option);
+      });
+    }
+
+    // 1. Changement PAYS -> Fetch REGIONS
+    paysSelect.addEventListener("change", async function () {
+      const pays = this.value;
+
+      // Reset enfants
+      updateSelect(regionSelect, [], "Chargement...", true);
+      updateSelect(hopitalSelect, [], "D'abord choisir une région...", true);
+
+      if (!pays) {
+        updateSelect(regionSelect, [], "D'abord choisir un pays...", true);
+        return;
+      }
+
+      try {
+        const response = await fetch(
+          `/api/regions_by_pays?pays=${encodeURIComponent(pays)}`
+        );
+        const data = await response.json();
+        updateSelect(
+          regionSelect,
+          data.regions,
+          "Sélectionner une région...",
+          false
+        );
+      } catch (error) {
+        console.error("Erreur:", error);
+        regionSelect.innerHTML = "<option>Erreur de chargement</option>";
+      }
+    });
+
+    // 2. Changement REGION -> Fetch HOPITAUX
+    regionSelect.addEventListener("change", async function () {
+      const region = this.value;
+      const pays = paysSelect.value;
+
+      // Reset enfants
+      updateSelect(hopitalSelect, [], "Chargement...", true);
+
+      if (!region) {
+        updateSelect(hopitalSelect, [], "D'abord choisir une région...", true);
+        return;
+      }
+
+      try {
+        const response = await fetch(
+          `/api/hopitaux_by_region?region=${encodeURIComponent(
+            region
+          )}&pays=${encodeURIComponent(pays)}`
+        );
+        const data = await response.json();
+        updateSelect(
+          hopitalSelect,
+          data.hopitaux,
+          "Sélectionner un hôpital...",
+          false
+        );
+      } catch (error) {
+        console.error("Erreur:", error);
+        hopitalSelect.innerHTML = "<option>Erreur de chargement</option>";
+      }
+    });
+
+    // 3. Changement HOPITAL -> Update DETAILS (optionnel, mais sympa)
+    hopitalSelect.addEventListener("change", async function () {
+      const hopital = this.value;
+      if (!hopital) return;
+
+      try {
+        const response = await fetch(
+          `/api/details_by_hopital?hopital=${encodeURIComponent(hopital)}`
+        );
+        const data = await response.json();
+
+        // On met à jour les listes de choix pour ne proposer que ce que l'hôpital a déjà géré
+        // C'est un plus pour l'UX
+        if (data.types_dechet && data.types_dechet.length > 0)
+          updateSelect(
+            typeDechetSelect,
+            data.types_dechet,
+            "Sélectionner...",
+            false
+          );
+        if (data.conteneurs && data.conteneurs.length > 0)
+          updateSelect(
+            conteneurSelect,
+            data.conteneurs,
+            "Sélectionner...",
+            false
+          );
+        if (data.services && data.services.length > 0)
+          updateSelect(serviceSelect, data.services, "Sélectionner...", false);
+      } catch (error) {
+        console.error("Erreur details:", error);
+      }
+    });
+
+    // 4. Soumission
+    document
+      .getElementById("predictionForm")
+      .addEventListener("submit", async function (e) {
+        e.preventDefault();
+
+        const formData = new FormData(this);
+        const button = this.querySelector('button[type="submit"]');
+        const originalText = button.innerHTML;
+
+        button.disabled = true;
+        button.innerHTML =
+          '<i class="fas fa-spinner fa-spin"></i> Calcul en cours...';
+
+        try {
+          const response = await fetch("/prediction", {
+            method: "POST",
+            body: formData,
+          });
+
+          const data = await response.json();
+
+          if (data.error) throw new Error(data.error);
+
+          // Show results
+          document.getElementById("placeholderCard").style.display = "none";
+          document.getElementById("resultsCard").style.display = "block";
+
+          // Update UI
+          document.getElementById("result-cout").textContent =
+            typeof data.cout_estime === "number"
+              ? data.cout_estime.toFixed(2) + " $"
+              : data.cout_estime;
+
+          const risqueEl = document.getElementById("result-risque");
+          const iconEl = document.getElementById("icon-risque");
+          risqueEl.textContent = data.niveau_risque;
+
+          // Colors
+          if (data.niveau_risque === "Élevé") {
+            risqueEl.className = "mb-0 fw-bold text-danger";
+            iconEl.className =
+              "fas fa-exclamation-triangle fa-3x text-danger opacity-25";
+          } else if (data.niveau_risque === "Moyen") {
+            risqueEl.className = "mb-0 fw-bold text-warning";
+            iconEl.className =
+              "fas fa-exclamation-triangle fa-3x text-warning opacity-25";
+          } else {
+            risqueEl.className = "mb-0 fw-bold text-success";
+            iconEl.className =
+              "fas fa-check-circle fa-3x text-success opacity-25";
+          }
+
+          document.getElementById("result-elimination").textContent =
+            data.mode_elimination;
+          document.getElementById("result-conformite").textContent =
+            data.conformite;
+
+          document
+            .getElementById("resultsCard")
+            .scrollIntoView({ behavior: "smooth", block: "nearest" });
+        } catch (error) {
+          alert("Erreur: " + error.message);
+        } finally {
+          button.disabled = false;
+          button.innerHTML = originalText;
+        }
+      });
+  });
+</script>
+{% endblock %}

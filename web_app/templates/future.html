@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+
+{% block title %}Planification Future{% endblock %}
+
+{% block content %}
+<div class="fade-in">
+    <div class="row mb-5 text-center">
+        <div class="col-lg-8 mx-auto">
+            <div class="badge bg-info text-dark mb-2">Beta</div>
+            <h1 class="text-white fw-bold display-5">Planification Future</h1>
+            <p class="text-white-50 lead">
+                Anticipez les coûts de gestion des déchets pour une date spécifique grâce à notre module de séries temporelles.
+            </p>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card shadow-lg border-0">
+                <div class="card-body p-5">
+                    <form id="futureForm">
+                        <div class="mb-4">
+                            <label class="form-label fw-bold text-uppercase small text-muted">Hôpital Cible</label>
+                            <select class="form-select form-select-lg" name="hopital" required>
+                                <option value="">Choisir un hôpital...</option>
+                                {% for h in hopitaux %}
+                                <option value="{{ h }}">{{ h }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label class="form-label fw-bold text-uppercase small text-muted">Date de prévision</label>
+                            <input type="date" class="form-control form-select-lg" name="date_future" required min="2024-01-01">
+                            <div class="form-text">Sélectionnez une date dans le futur pour voir les estimations.</div>
+                        </div>
+
+                        <button type="submit" class="btn btn-info w-100 btn-lg text-white fw-bold">
+                            <i class="fas fa-search-dollar me-2"></i> Estimer le Coût
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-5">
+            <!-- État initial -->
+            <div id="initialState" class="h-100 d-flex align-items-center justify-content-center border rounded-3 p-5" style="border: 2px dashed rgba(255,255,255,0.2) !important;">
+                <div class="text-center text-white-50">
+                    <i class="fas fa-calendar-alt fa-4x mb-3 opacity-50"></i>
+                    <h4>En attente...</h4>
+                    <p>Remplissez le formulaire ci-contre pour générer une estimation.</p>
+                </div>
+            </div>
+
+            <!-- Résultat (Caché par défaut) -->
+            <div id="resultCard" class="card bg-dark text-white border-secondary h-100 shadow-lg" style="display: none;">
+                <div class="card-header border-secondary bg-transparent py-3">
+                    <h5 class="mb-0"><i class="fas fa-chart-line text-info me-2"></i> Estimation pour le <span id="resDate"></span></h5>
+                </div>
+                <div class="card-body d-flex flex-column justify-content-center text-center">
+                    <div class="py-4">
+                        <small class="text-white-50 text-uppercase ls-1">Coût Estimé</small>
+                        <h1 class="display-3 fw-bold text-info my-2" id="resCout">0 $</h1>
+                        <span class="badge bg-dark border border-secondary text-white-50 rounded-pill px-3 py-2">
+                            Intervalle probable : <span id="resMin">0</span> - <span id="resMax">0</span> $
+                        </span>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-secondary text-center py-3">
+                    <small class="text-muted"><i class="fas fa-info-circle me-1"></i> Basé sur l'historique de l'établissement</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.getElementById('futureForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const btn = this.querySelector('button');
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Calcul...';
+    btn.disabled = true;
+
+    try {
+        const formData = new FormData(this);
+        const response = await fetch('/planification-future', {
+            method: 'POST',
+            body: formData
+        });
+        
+        const data = await response.json();
+        
+        if(data.error) throw new Error(data.error);
+
+        // Update UI
+        document.getElementById('initialState').style.display = 'none';
+        document.getElementById('resultCard').style.display = 'block';
+        
+        document.getElementById('resDate').textContent = data.date_analysee;
+        document.getElementById('resCout').textContent = data.cout_estime.toLocaleString('fr-FR') + ' $';
+        document.getElementById('resMin').textContent = data.cout_min.toLocaleString('fr-FR');
+        document.getElementById('resMax').textContent = data.cout_max.toLocaleString('fr-FR');
+
+    } catch (e) {
+        alert("Erreur: " + e.message);
+    } finally {
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+    }
+});
+</script>
+{% endblock %}

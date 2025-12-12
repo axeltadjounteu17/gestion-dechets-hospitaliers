@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - Gestion Déchets Hospitaliers{% endblock %}
+
+{% block content %}
+<div class="fade-in">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2 class="text-white fw-bold mb-3">
+                <i class="fas fa-chart-line"></i> Tableau de Bord Analytique
+            </h2>
+            <p class="text-white-50">Visualisations interactives des données de gestion des déchets</p>
+        </div>
+    </div>
+
+    <!-- Graphiques -->
+    <div class="row g-4">
+        <!-- Distribution des types -->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body p-4">
+                    <div id="graph-types"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Niveau de risque -->
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body p-4">
+                    <div id="graph-risque"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Coût par type -->
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body p-4">
+                    <div id="graph-cout"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Évolution temporelle -->
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body p-4">
+                    <div id="graph-temps"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    // Charger les graphiques Plotly
+    const graphTypes = {{ graphs.types|safe }};
+    const graphCout = {{ graphs.cout|safe }};
+    const graphTemps = {{ graphs.temps|safe }};
+    const graphRisque = {{ graphs.risque|safe }};
+
+    // Configuration commune
+    const config = {
+        responsive: true,
+        displayModeBar: true,
+        displaylogo: false,
+        modeBarButtonsToRemove: ['pan2d', 'lasso2d', 'select2d']
+    };
+
+    // Afficher les graphiques
+    Plotly.newPlot('graph-types', graphTypes.data, graphTypes.layout, config);
+    Plotly.newPlot('graph-cout', graphCout.data, graphCout.layout, config);
+    Plotly.newPlot('graph-temps', graphTemps.data, graphTemps.layout, config);
+    Plotly.newPlot('graph-risque', graphRisque.data, graphRisque.layout, config);
+</script>
+{% endblock %}

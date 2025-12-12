@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+
+{% block title %}Performance - Gestion Déchets Hospitaliers{% endblock %}
+
+{% block content %}
+<div class="fade-in">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h2 class="text-white fw-bold mb-3">
+                <i class="fas fa-trophy"></i> Performance des Modèles
+            </h2>
+            <p class="text-white-50">Évaluation et comparaison des modèles de machine learning</p>
+        </div>
+    </div>
+
+    <!-- Graphique de comparaison -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body p-4">
+                    <div id="graph-performance"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Détails des modèles -->
+    <div class="row g-4">
+        {% for model_name, metrics in models.items() %}
+        <div class="col-md-6">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h5 class="mb-0">
+                        <i class="fas fa-robot"></i> {{ model_name }}
+                    </h5>
+                </div>
+                <div class="card-body">
+                    {% if 'R2' in metrics or 'R²' in metrics %}
+                    <!-- Modèle de régression -->
+                    {% set r2_score = metrics.get('R2', metrics.get('R²', 0)) %}
+                    <div class="metric-item mb-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="text-muted">Coefficient R²</span>
+                            <span class="badge bg-primary fs-6">{{ "%.4f"|format(r2_score) }}</span>
+                        </div>
+                        <div class="progress mt-2" style="height: 8px;">
+                            <div class="progress-bar bg-primary" 
+                                 style="width: {{ (r2_score * 100)|int }}%"></div>
+                        </div>
+                    </div>
+                    {% if 'MAE' in metrics %}
+                    <div class="metric-item">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="text-muted">Erreur Absolue Moyenne (MAE)</span>
+                            <span class="badge bg-warning fs-6">{{ "%.2f"|format(metrics['MAE']) }} $</span>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if 'RMSE' in metrics %}
+                    <div class="metric-item mt-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="text-muted">RMSE</span>
+                            <span class="badge bg-secondary fs-6">{{ "%.2f"|format(metrics['RMSE']) }} $</span>
+                        </div>
+                    </div>
+                    {% endif %}
+                    
+                    {% else %}
+                    <!-- Modèle de classification ou générique -->
+                    {% for key, val in metrics.items() %}
+                    <div class="metric-item mb-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="text-muted">{{ key }}</span>
+                            <span class="badge bg-success fs-6">{{ val }}</span>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- Informations supplémentaires -->
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0"><i class="fas fa-info-circle"></i> Informations sur les Modèles</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="fw-bold mb-3">Algorithmes Utilisés</h6>
+                            <ul class="text-muted">
+                                <li><strong>Linear Regression :</strong> Modèle de base simple et interprétable.</li>
+                                <li><strong>Random Forest :</strong> Ensemble d'arbres de décision pour plus de robustesse.</li>
+                                <li><strong>Gradient Boosting :</strong> Boosting pour minimiser les erreurs séquentielles.</li>
+                                <li><strong>SVR :</strong> Régression à vecteurs de support (souvent performant sur petits datasets).</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="fw-bold mb-3">Pipeline de Traitement</h6>
+                            <ul class="text-muted">
+                                <li><strong>Nettoyage :</strong> Imputation des valeurs manquantes.</li>
+                                <li><strong>Preprocessing :</strong> 
+                                    <ul>
+                                        <li>StandardScaler pour les variables numériques (Poids, Distance).</li>
+                                        <li>OneHotEncoder pour les variables catégorielles (Pays, Type, etc.).</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Validation :</strong> Split Train/Test (80/20) pour valider les performances.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    // Charger le graphique de performance si disponible
+    {% if graph %}
+    try {
+        const graphPerf = {{ graph|safe }};
+        const config = {
+            responsive: true,
+            displayModeBar: true,
+            displaylogo: false
+        };
+        Plotly.newPlot('graph-performance', graphPerf.data, graphPerf.layout, config);
+    } catch(e) {
+        console.error("Erreur Plotly:", e);
+    }
+    {% endif %}
+</script>
+{% endblock %}

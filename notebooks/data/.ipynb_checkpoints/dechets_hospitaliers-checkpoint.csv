@@ -1,0 +1,736 @@
+id,hopital,pays,region,type_dechet,poids_kg,cout_traitement,niveau_risque,mode_elimination,date_collecte,distance_traitement_km,conformite,type_conteneur,incident,entreprise_transport,service_origine
+571,Hopital_25,Sénégal,Est,Radioactifs,201.49,32767.38,Moyen,Incinération,2023-03-30,54.89,Non,Sac rouge,Non,SafeWaste,Radiologie
+241,Hopital_11,Cameroun,Extrême-Nord,Piqûres/Coupures,214.32,26431.7,Élevé,Autoclave,2024-07-07,86.71,En attente,Sac rouge,Non,CleanMed,Urgences
+294,Hopital_20,Togo,Sud,Organiques,17.56,423.84,Faible,Enfouissement,2024-09-18,86.09,Partielle,Conteneur rigide,Non,,Restauration
+670,Hopital_25,Togo,Adamaoua,Piqûres/Coupures,39.35,4702.25,Élevé,Autoclave,2023-01-08,25.31,En attente,Sac rouge,Non,Hopital Service,Chirurgie
+475,Hopital_45,Togo,Adamaoua,Pharmaceutiques,243.51,55352.35,Élevé,Incinération,2023-03-11,29.23,,Sac jaune,Non,SafeWaste,Oncologie
+23,Hopital_2,Cameroun,Adamaoua,Chimiques,438.45,41449.9,Moyen,Désinfection chimique,2024-06-20,72.37,Non,Fût,Non,SafeWaste,Oncologie
+86,Hopital_16,Sénégal,Est,Piqûres/Coupures,150.06,21934.01,Faible,Incinération,2024-02-17,198.58,En attente,Carton DASRI,Non,SafeWaste,Soins Intensifs
+246,Hopital_6,Gabon,Littoral,Radioactifs,249.63,53457.21,Élevé,Incinération,2023-11-17,11.29,Partielle,Carton DASRI,Non,SafeWaste,Radiologie
+596,Hopital_35,Cameroun,Nord,Organiques,231.88,4732.61,Faible,Enfouissement,2024-02-27,209.71,En attente,Sac rouge,Non,,Restauration
+171,Hopital_2,Sénégal,Nord,Pharmaceutiques,273.17,38007.75,Moyen,Incinération,2023-10-07,225.19,Non,Sac jaune,Non,SafeWaste,Pharmacie
+232,Hopital_4,Bénin,Nord,Organiques,402.0,8150.73,Faible,Enfouissement,2024-07-01,199.24,En attente,Sac jaune,Non,EcoTrans,Restauration
+557,Hopital_8,Togo,Extrême-Nord,Chimiques,151.86,15942.72,Moyen,Désinfection chimique,2024-04-15,49.4,En attente,Conteneur rigide,Non,EcoTrans,Laboratoire
+500,Hopital_26,RDC,Nord,Chimiques,353.09,32011.41,Moyen,Désinfection chimique,2024-01-19,184.29,Oui,Sac jaune,Non,SafeWaste,Maintenance
+77,Hopital_14,Gabon,Sud-Ouest,Pharmaceutiques,294.3,42497.09,Moyen,Incinération,2024-03-11,223.48,Partielle,Sac rouge,Non,Hopital Service,Pharmacie
+628,Hopital_16,Cameroun,Nord,Infectieux,10.54,2274.51,Élevé,Incinération,2024-06-10,148.35,Oui,Sac rouge,Non,BioLogistics,Maladies Infectieuses
+361,Hopital_46,RDC,Nord,Chimiques,58.35,6090.72,Moyen,Désinfection chimique,2024-07-29,124.03,En attente,Conteneur rigide,Non,EcoTrans,Laboratoire
+150,Hopital_42,Gabon,Adamaoua,Piqûres/Coupures,113.43,23585.31,Élevé,Incinération,2023-07-19,147.8,,Conteneur rigide,Non,SafeWaste,Urgences
+576,Hopital_9,Bénin,Adamaoua,Infectieux,310.71,72655.73,Élevé,Incinération,2024-06-02,229.36,Oui,Conteneur rigide,Non,SafeWaste,Maladies Infectieuses
+556,Hopital_26,Côte d'Ivoire,Ouest,Radioactifs,220.78,46361.54,Élevé,Incinération,2024-05-01,46.67,Oui,Conteneur rigide,Non,CleanMed,Radiologie
+275,Hopital_7,Gabon,Sud,Pharmaceutiques,420.88,68351.56,Moyen,Incinération,2024-05-18,174.89,Oui,Carton DASRI,Non,BioLogistics,Pharmacie
+281,Hopital_1,Sénégal,Centre,Piqûres/Coupures,163.23,35039.23,Élevé,Incinération,2024-05-24,125.02,Oui,Conteneur rigide,Oui,EcoTrans,Urgences
+84,Hopital_40,Gabon,Nord,Infectieux,137.26,14963.49,Élevé,Autoclave,2023-05-17,179.47,Partielle,Sac rouge,Non,EcoTrans,Urgences
+383,Hopital_40,Côte d'Ivoire,Extrême-Nord,Organiques,192.87,3503.75,Faible,Enfouissement,2023-05-31,6.08,Partielle,Sac rouge,Non,CleanMed,Restauration
+700,Hopital_33,RDC,Est,Radioactifs,121.72,26496.66,Élevé,Incinération,2024-10-20,82.03,Partielle,Conteneur rigide,Oui,,Radiologie
+139,Hopital_3,RDC,Sud-Ouest,Piqûres/Coupures,490.67,105638.69,Élevé,Incinération,2023-08-01,239.76,Oui,Sac rouge,Non,SafeWaste,Soins Intensifs
+222,Hopital_32,Cameroun,Adamaoua,Infectieux,71.22,15627.17,Élevé,Incinération,2024-06-07,23.52,Oui,Sac rouge,Non,CleanMed,Maladies Infectieuses
+176,Hopital_28,Gabon,Ouest,Pharmaceutiques,26.93,3685.1,Moyen,Incinération,2024-09-14,81.1,Oui,Carton DASRI,Non,CleanMed,Pharmacie
+625,Hopital_21,Cameroun,Sud,Chimiques,255.71,27833.49,Moyen,Désinfection chimique,2024-07-05,166.78,Non,Sac rouge,Non,,Laboratoire
+211,Hopital_3,Côte d'Ivoire,Nord,Pharmaceutiques,198.59,26941.62,Moyen,Incinération,2023-05-09,130.51,Oui,Fût,Non,CleanMed,Pharmacie
+606,Hopital_19,Gabon,Nord,Organiques,256.13,5662.82,Faible,Enfouissement,2023-10-25,92.17,Partielle,Sac rouge,Non,Hopital Service,Restauration
+488,Hopital_29,RDC,Ouest,Piqûres/Coupures,153.85,35300.98,Élevé,Incinération,2023-03-27,207.58,Oui,Sac rouge,Non,Hopital Service,Chirurgie
+115,Hopital_39,Bénin,Extrême-Nord,Infectieux,249.63,32204.59,Élevé,Autoclave,2024-11-26,130.51,Partielle,Carton DASRI,Non,SafeWaste,Maladies Infectieuses
+57,Hopital_8,Cameroun,Ouest,Organiques,259.12,5539.33,Faible,Enfouissement,2024-02-20,34.42,Partielle,Fût,Non,BioLogistics,Services Généraux
+393,Hopital_42,Bénin,Sud,Chimiques,181.56,17752.1,Moyen,Désinfection chimique,2023-12-19,44.68,Non,Sac rouge,Non,Hopital Service,Maintenance
+304,Hopital_20,Bénin,Sud-Ouest,Organiques,335.7,7354.72,Faible,Enfouissement,2024-07-09,248.04,En attente,Carton DASRI,Non,CleanMed,Restauration
+634,Hopital_31,Togo,Sud-Ouest,Pharmaceutiques,150.4,23894.8,Moyen,Incinération,2023-07-05,79.67,Oui,Fût,Non,SafeWaste,Pharmacie
+520,Hopital_4,Cameroun,Nord,Piqûres/Coupures,494.03,121402.22,Élevé,Incinération,2024-03-06,233.71,Partielle,Fût,Non,Hopital Service,Vaccination
+644,Hopital_9,Côte d'Ivoire,Ouest,Radioactifs,249.63,58507.06,Élevé,Incinération,2024-10-23,83.42,Oui,Sac rouge,Non,CleanMed,Radiologie
+675,Hopital_31,Gabon,Ouest,Piqûres/Coupures,37.38,4254.87,Élevé,Autoclave,2023-07-10,211.81,Oui,Fût,Oui,BioLogistics,Soins Intensifs
+93,Hopital_45,Cameroun,Ouest,Infectieux,401.52,82917.46,Élevé,Incinération,2024-06-07,226.13,En attente,Sac jaune,Non,CleanMed,Chirurgie
+37,Hopital_44,Sénégal,Adamaoua,Chimiques,47.4,5165.59,Moyen,Désinfection chimique,2024-10-16,66.97,En attente,Fût,Non,Hopital Service,Maintenance
+656,Hopital_27,Bénin,Nord,Piqûres/Coupures,45.21,9463.76,Élevé,Incinération,2024-12-28,5.79,Oui,Sac jaune,Non,CleanMed,Urgences
+487,Hopital_22,RDC,Nord,Organiques,138.42,2744.96,Faible,Enfouissement,2023-04-06,120.43,,Sac rouge,Non,Hopital Service,Restauration
+375,Hopital_23,Côte d'Ivoire,Adamaoua,Chimiques,222.25,20574.25,Moyen,Désinfection chimique,2024-04-15,7.68,En attente,Conteneur rigide,Non,Hopital Service,Maintenance
+247,Hopital_16,Sénégal,Ouest,Piqûres/Coupures,445.24,99148.02,Élevé,Incinération,2023-08-21,225.45,En attente,Conteneur rigide,Non,BioLogistics,Chirurgie
+517,Hopital_1,Togo,Littoral,Infectieux,303.28,35707.42,Élevé,Autoclave,2024-03-15,8.86,Non,Sac jaune,Non,CleanMed,Maladies Infectieuses
+48,Hopital_50,Sénégal,Sud,Pharmaceutiques,135.64,18857.58,Moyen,Incinération,2023-05-10,207.96,En attente,Conteneur rigide,Non,Hopital Service,Pharmacie
+591,Hopital_12,Sénégal,Est,Piqûres/Coupures,397.31,90087.45,Élevé,Incinération,2023-11-02,46.03,Partielle,Fût,Non,SafeWaste,Soins Intensifs
+574,Hopital_10,Togo,Extrême-Nord,Radioactifs,312.08,71815.32,Élevé,Incinération,2023-02-19,160.33,En attente,Conteneur rigide,Non,SafeWaste,Oncologie
+539,Hopital_3,RDC,Sud,Piqûres/Coupures,478.0,106816.42,Élevé,Incinération,2024-07-11,30.92,Partielle,Conteneur rigide,Non,EcoTrans,Chirurgie
+212,Hopital_49,Côte d'Ivoire,Extrême-Nord,Chimiques,457.63,41808.53,Moyen,Désinfection chimique,2023-05-25,204.56,Non,Sac jaune,Non,SafeWaste,Laboratoire
+235,Hopital_38,Togo,Sud,Pharmaceutiques,209.46,29526.76,Moyen,Incinération,2024-07-09,130.51,Partielle,Fût,Non,SafeWaste,Pharmacie
+318,Hopital_36,Togo,Nord,Pharmaceutiques,249.63,41165.0,Moyen,Incinération,2023-12-16,229.68,Oui,Conteneur rigide,Non,CleanMed,Oncologie
+647,Hopital_17,Côte d'Ivoire,Extrême-Nord,Piqûres/Coupures,249.63,55027.3,Élevé,Incinération,2024-01-20,240.36,Partielle,Carton DASRI,Non,SafeWaste,Chirurgie
+397,Hopital_40,Togo,Sud,Pharmaceutiques,139.13,21722.05,Moyen,Incinération,2023-01-02,171.72,Partielle,Carton DASRI,Non,EcoTrans,Pharmacie
+565,Hopital_4,Gabon,Ouest,Piqûres/Coupures,174.29,19073.38,Élevé,Autoclave,2024-08-16,25.46,En attente,Sac rouge,Non,Hopital Service,Urgences
+323,Hopital_21,Cameroun,Nord,Pharmaceutiques,402.65,57352.22,Moyen,Incinération,2023-10-23,217.84,Partielle,Carton DASRI,Non,BioLogistics,Soins Palliatifs
+497,Hopital_12,Gabon,Sud,Organiques,291.52,6076.18,Faible,Enfouissement,2024-08-01,21.16,,Conteneur rigide,Oui,BioLogistics,Restauration
+578,Hopital_35,Sénégal,Centre,Pharmaceutiques,198.17,29773.01,Faible,Incinération,2024-06-01,48.48,Oui,Conteneur rigide,Non,CleanMed,Pharmacie
+681,Hopital_26,Cameroun,Adamaoua,Piqûres/Coupures,464.68,50745.37,Élevé,Autoclave,2024-09-16,174.48,,Conteneur rigide,Non,CleanMed,Chirurgie
+332,Hopital_12,Cameroun,Littoral,Piqûres/Coupures,249.63,51959.56,Élevé,Incinération,2023-07-18,130.51,Non,Fût,Non,EcoTrans,Chirurgie
+238,Hopital_34,Gabon,Adamaoua,Infectieux,317.7,64720.13,Élevé,Incinération,2024-07-01,90.77,,Sac rouge,Non,,Urgences
+160,Hopital_39,RDC,Est,Radioactifs,272.23,63375.5,Élevé,Incinération,2023-06-29,67.07,En attente,Carton DASRI,Non,SafeWaste,Radiologie
+346,Hopital_33,Bénin,Sud-Ouest,Infectieux,249.63,28554.52,Élevé,Autoclave,2024-08-26,164.4,Partielle,Carton DASRI,Non,,Maladies Infectieuses
+177,Hopital_44,RDC,Extrême-Nord,Chimiques,249.63,24801.99,Moyen,Désinfection chimique,2024-02-13,137.82,Non,Sac jaune,Non,Hopital Service,Laboratoire
+246,Hopital_6,Gabon,Littoral,Radioactifs,249.63,58414.0,Élevé,Incinération,2023-11-17,11.29,Partielle,Carton DASRI,Non,SafeWaste,Radiologie
+527,Hopital_32,Gabon,Nord,Pharmaceutiques,482.04,70678.15,Moyen,Incinération,2024-09-12,98.98,En attente,Conteneur rigide,Non,EcoTrans,Pharmacie
+68,Hopital_42,Bénin,Ouest,Piqûres/Coupures,321.64,78499.45,Élevé,Incinération,2023-05-10,228.06,Partielle,Conteneur rigide,Non,BioLogistics,Chirurgie
+306,Hopital_48,Sénégal,Ouest,Chimiques,56.38,5346.14,Moyen,Désinfection chimique,2024-05-20,224.67,En attente,Fût,Non,CleanMed,Laboratoire
+582,Hopital_36,Togo,Littoral,Pharmaceutiques,114.65,15844.27,Moyen,Incinération,2023-01-22,116.91,En attente,Sac jaune,Non,,Pharmacie
+698,Hopital_49,Gabon,Nord,Pharmaceutiques,36.82,5292.7,Moyen,Incinération,2024-02-05,196.35,,Sac rouge,Non,SafeWaste,Pharmacie
+274,Hopital_35,RDC,Adamaoua,Infectieux,176.84,41910.26,Élevé,Incinération,2024-03-22,165.35,Oui,Sac jaune,Non,,Maladies Infectieuses
+27,Hopital_22,RDC,Est,Piqûres/Coupures,361.31,44826.86,Élevé,Autoclave,2023-04-14,130.51,Oui,Sac rouge,Non,,Chirurgie
+345,Hopital_30,Gabon,Sud,Pharmaceutiques,426.28,63349.26,Moyen,Incinération,2024-01-12,249.87,Oui,Carton DASRI,Non,BioLogistics,Pharmacie
+380,Hopital_42,Cameroun,Sud-Ouest,Organiques,249.63,4780.04,Faible,Enfouissement,2024-10-25,184.87,Partielle,Fût,Non,BioLogistics,Restauration
+467,Hopital_1,Bénin,Nord,Pharmaceutiques,61.16,8878.24,Faible,Incinération,2024-02-11,81.56,Oui,Sac rouge,Non,Hopital Service,Oncologie
+639,Hopital_43,Sénégal,Littoral,Pharmaceutiques,478.77,70764.48,Moyen,Incinération,2023-01-24,239.26,Oui,Carton DASRI,Non,BioLogistics,Oncologie
+10,Hopital_11,Bénin,Adamaoua,Chimiques,178.34,16821.08,Moyen,Désinfection chimique,2024-03-03,120.6,En attente,Sac rouge,Non,,Laboratoire
+392,Hopital_27,Togo,Extrême-Nord,Radioactifs,127.94,28899.56,Élevé,Incinération,2023-01-30,76.66,Partielle,Conteneur rigide,Non,SafeWaste,Radiologie
+662,Hopital_19,Gabon,Est,Pharmaceutiques,175.06,26863.63,Moyen,Incinération,2024-08-29,138.95,Oui,Sac jaune,Non,,Soins Palliatifs
+92,Hopital_25,RDC,Extrême-Nord,Piqûres/Coupures,93.86,10705.97,Élevé,Autoclave,2024-12-24,137.99,Partielle,Sac rouge,Non,BioLogistics,Chirurgie
+519,Hopital_45,Gabon,Ouest,Radioactifs,109.73,26815.71,Élevé,Incinération,2023-05-29,58.78,Partielle,Conteneur rigide,Non,SafeWaste,Oncologie
+685,Hopital_45,Côte d'Ivoire,Sud,Piqûres/Coupures,238.74,48730.01,Élevé,Incinération,2024-11-28,29.48,Partielle,Carton DASRI,Non,CleanMed,Urgences
+577,Hopital_24,Gabon,Extrême-Nord,Piqûres/Coupures,101.45,23687.99,Élevé,Incinération,2023-06-18,130.51,Partielle,Fût,Non,Hopital Service,Chirurgie
+6,Hopital_21,Bénin,Littoral,Chimiques,249.63,24738.85,Moyen,Désinfection chimique,2023-07-19,219.83,Non,Fût,Non,CleanMed,Laboratoire
+123,Hopital_33,Cameroun,Sud,Piqûres/Coupures,32.26,3801.52,Élevé,Autoclave,2024-12-02,50.51,En attente,Sac jaune,Non,EcoTrans,Urgences
+455,Hopital_42,Côte d'Ivoire,Centre,Infectieux,178.03,42194.58,Élevé,Incinération,2024-07-19,249.29,Partielle,Fût,Non,Hopital Service,Maladies Infectieuses
+251,Hopital_36,Bénin,Sud,Organiques,429.23,8003.56,Faible,Enfouissement,2023-01-19,178.06,Non,Sac jaune,Non,,Services Généraux
+4,Hopital_43,Sénégal,Nord,Pharmaceutiques,400.24,55030.21,Moyen,Incinération,2024-08-23,240.7,Oui,Sac jaune,Oui,EcoTrans,Pharmacie
+290,Hopital_19,RDC,Littoral,Piqûres/Coupures,347.38,70883.0,Élevé,Incinération,2023-10-14,36.76,En attente,Sac jaune,Non,CleanMed,Chirurgie
+45,Hopital_4,Sénégal,Littoral,Radioactifs,302.14,65628.99,Élevé,Incinération,2023-05-03,165.67,,Carton DASRI,Non,BioLogistics,Radiologie
+687,Hopital_50,Côte d'Ivoire,Ouest,Radioactifs,320.6,71611.87,Élevé,Incinération,2023-12-02,228.32,Oui,Carton DASRI,Non,EcoTrans,Radiologie
+309,Hopital_25,Cameroun,Nord,Piqûres/Coupures,432.42,101490.95,Élevé,Incinération,2024-04-14,113.47,En attente,Conteneur rigide,Non,EcoTrans,Soins Intensifs
+604,Hopital_22,RDC,Adamaoua,Infectieux,381.14,89025.67,Élevé,Incinération,2024-10-26,181.41,En attente,Sac rouge,Non,EcoTrans,Maladies Infectieuses
+126,Hopital_24,Cameroun,Extrême-Nord,Pharmaceutiques,266.68,37370.46,Moyen,Incinération,2023-02-24,217.95,Oui,Fût,Non,SafeWaste,Pharmacie
+368,Hopital_49,Bénin,Adamaoua,Organiques,259.21,4884.6,Faible,Enfouissement,2024-07-21,27.98,Non,Sac jaune,Non,Hopital Service,Restauration
+441,Hopital_44,RDC,Ouest,Chimiques,26.52,2806.78,Moyen,Désinfection chimique,2024-10-04,142.34,Non,Conteneur rigide,Non,Hopital Service,Laboratoire
+420,Hopital_12,Sénégal,Nord,Piqûres/Coupures,57.81,13197.79,Élevé,Incinération,2024-12-13,96.05,En attente,Sac rouge,Non,EcoTrans,Vaccination
+227,Hopital_44,Sénégal,Extrême-Nord,Pharmaceutiques,249.63,39271.4,Moyen,Incinération,2024-04-23,130.51,,Conteneur rigide,Non,Hopital Service,Pharmacie
+130,Hopital_40,Bénin,Centre,Pharmaceutiques,11.89,1869.15,Moyen,Incinération,2024-05-15,180.31,Oui,Fût,Non,EcoTrans,Oncologie
+179,Hopital_20,Côte d'Ivoire,Est,Infectieux,130.05,16149.91,Élevé,Autoclave,2024-10-24,116.92,Partielle,Sac jaune,Non,,Chirurgie
+528,Hopital_27,Togo,Ouest,Pharmaceutiques,192.72,26351.06,Moyen,Incinération,2023-09-12,83.11,Partielle,Carton DASRI,Non,SafeWaste,Oncologie
+231,Hopital_32,Côte d'Ivoire,Extrême-Nord,Infectieux,249.63,59030.11,Élevé,Incinération,2024-04-24,210.82,Partielle,Sac rouge,Non,Hopital Service,Laboratoire
+157,Hopital_30,Cameroun,Ouest,Piqûres/Coupures,361.68,54171.53,Faible,Incinération,2023-07-31,11.38,Non,Conteneur rigide,Non,BioLogistics,Soins Intensifs
+414,Hopital_20,Bénin,Ouest,Radioactifs,256.82,59954.55,Élevé,Incinération,2024-10-09,152.21,Oui,Fût,Non,EcoTrans,Radiologie
+21,Hopital_30,Sénégal,Sud,Piqûres/Coupures,75.3,16808.24,Élevé,Incinération,2024-07-09,232.03,,Sac jaune,Non,Hopital Service,Chirurgie
+442,Hopital_5,Cameroun,Nord,Pharmaceutiques,129.55,19460.06,Moyen,Incinération,2024-04-24,57.61,Non,Fût,Non,EcoTrans,Pharmacie
+452,Hopital_16,Sénégal,Nord,Radioactifs,375.84,83372.79,Élevé,Incinération,2024-09-22,168.06,Partielle,Fût,Non,CleanMed,Radiologie
+29,Hopital_25,Bénin,Extrême-Nord,Piqûres/Coupures,249.63,59367.36,Élevé,Incinération,2023-01-21,130.51,Oui,Sac rouge,Non,CleanMed,Chirurgie
+650,Hopital_46,Côte d'Ivoire,Ouest,Organiques,376.96,8322.86,Faible,Enfouissement,2023-05-26,109.08,En attente,Sac rouge,Non,CleanMed,Maternité
+214,Hopital_49,Cameroun,Centre,Pharmaceutiques,79.82,11260.0,Moyen,Incinération,2024-08-10,84.92,Oui,Conteneur rigide,Non,SafeWaste,Oncologie
+627,Hopital_23,Togo,Centre,Chimiques,463.26,44896.32,Moyen,Désinfection chimique,2024-01-03,161.04,Non,Sac jaune,Non,Hopital Service,Laboratoire
+220,Hopital_23,Togo,Ouest,Pharmaceutiques,139.18,18859.94,Moyen,Incinération,2024-10-19,121.38,Partielle,Conteneur rigide,Non,CleanMed,Pharmacie
+207,Hopital_49,Bénin,Ouest,Infectieux,396.63,48889.51,Élevé,Autoclave,2024-11-05,157.47,Partielle,Sac jaune,Non,,Urgences
+149,Hopital_26,Cameroun,Extrême-Nord,Piqûres/Coupures,76.47,18378.44,Élevé,Incinération,2023-01-25,222.78,Partielle,Conteneur rigide,Non,SafeWaste,Urgences
+282,Hopital_48,Bénin,Ouest,Pharmaceutiques,343.48,52133.56,Moyen,Incinération,2023-12-18,204.56,Oui,Carton DASRI,Non,Hopital Service,Pharmacie
+371,Hopital_35,Gabon,Nord,Pharmaceutiques,217.86,35392.86,Moyen,Incinération,2023-07-25,245.58,En attente,Sac rouge,Non,SafeWaste,Pharmacie
+315,Hopital_35,Cameroun,Centre,Infectieux,21.97,5057.72,Élevé,Incinération,2023-10-19,40.43,Non,Sac rouge,Non,EcoTrans,Urgences
+165,Hopital_36,Sénégal,Sud-Ouest,Pharmaceutiques,472.9,71276.44,Moyen,Incinération,2024-09-02,14.73,En attente,Sac jaune,Non,,Pharmacie
+127,Hopital_37,Gabon,Sud-Ouest,Piqûres/Coupures,206.14,46012.52,Élevé,Incinération,2024-02-17,223.68,,Carton DASRI,Non,SafeWaste,Urgences
+626,Hopital_36,Sénégal,Adamaoua,Radioactifs,313.67,71487.14,Élevé,Incinération,2023-05-11,76.92,Non,Conteneur rigide,Non,CleanMed,Radiologie
+389,Hopital_22,Sénégal,Sud-Ouest,Piqûres/Coupures,253.63,59371.72,Élevé,Incinération,2024-12-05,94.18,En attente,Sac jaune,Non,EcoTrans,Chirurgie
+218,Hopital_2,Côte d'Ivoire,Centre,Chimiques,428.73,46582.82,Moyen,Désinfection chimique,2024-12-28,130.51,En attente,Carton DASRI,Non,CleanMed,Laboratoire
+312,Hopital_46,Sénégal,Adamaoua,Chimiques,488.42,47111.62,Moyen,Désinfection chimique,2024-04-15,15.64,Partielle,Sac rouge,Non,BioLogistics,Laboratoire
+259,Hopital_41,RDC,Extrême-Nord,Pharmaceutiques,179.54,28219.48,Moyen,Incinération,2023-11-03,191.35,En attente,Sac jaune,Non,EcoTrans,Pharmacie
+228,Hopital_26,Bénin,Est,Chimiques,249.63,23965.46,Moyen,Désinfection chimique,2023-05-03,100.97,Oui,Conteneur rigide,Non,BioLogistics,Maintenance
+353,Hopital_4,Gabon,Littoral,Radioactifs,18.3,4626.27,Élevé,Incinération,2023-03-08,222.96,Partielle,Fût,Non,SafeWaste,Oncologie
+534,Hopital_33,Sénégal,Sud,Piqûres/Coupures,378.35,84537.65,Élevé,Incinération,2024-12-22,44.36,Oui,Fût,Non,SafeWaste,Chirurgie
+331,Hopital_48,RDC,Est,Organiques,57.18,1130.32,Faible,Enfouissement,2023-03-03,19.4,Partielle,Sac jaune,Non,EcoTrans,Maternité
+308,Hopital_35,Cameroun,Ouest,Piqûres/Coupures,230.72,50253.76,Élevé,Incinération,2024-01-01,204.56,Oui,Sac jaune,Non,Hopital Service,Chirurgie
+373,Hopital_21,Togo,Adamaoua,Pharmaceutiques,301.36,43371.65,Moyen,Incinération,2023-10-03,244.95,Partielle,Carton DASRI,Non,EcoTrans,Oncologie
+96,Hopital_15,Côte d'Ivoire,Ouest,Piqûres/Coupures,67.61,13831.92,Élevé,Incinération,2023-05-19,43.16,Oui,Carton DASRI,Non,BioLogistics,Chirurgie
+403,Hopital_29,Togo,Adamaoua,Piqûres/Coupures,141.06,15871.08,Élevé,Autoclave,2024-06-22,54.47,Partielle,Conteneur rigide,Non,EcoTrans,Urgences
+593,Hopital_13,Togo,Littoral,Organiques,438.67,8079.76,Faible,Enfouissement,2024-04-23,130.51,Oui,Sac rouge,Non,BioLogistics,Restauration
+348,Hopital_47,Cameroun,Adamaoua,Piqûres/Coupures,446.26,49787.05,Élevé,Autoclave,2024-05-11,133.01,Partielle,Sac jaune,Non,SafeWaste,Soins Intensifs
+469,Hopital_47,Bénin,Adamaoua,Infectieux,34.16,8259.56,Élevé,Incinération,2023-07-20,210.76,Oui,Fût,Non,EcoTrans,Maladies Infectieuses
+364,Hopital_41,RDC,Est,Organiques,334.93,6568.1,Faible,Enfouissement,2023-08-16,221.84,Non,Carton DASRI,Non,BioLogistics,Restauration
+236,Hopital_24,Sénégal,Est,Radioactifs,492.07,114869.61,Élevé,Incinération,2024-01-24,184.99,Non,Sac jaune,Non,EcoTrans,Radiologie
+489,Hopital_14,RDC,Ouest,Piqûres/Coupures,394.7,86062.75,Élevé,Incinération,2024-08-03,100.03,,Fût,Non,SafeWaste,Soins Intensifs
+664,Hopital_48,Togo,Sud-Ouest,Organiques,404.31,8146.82,Faible,Enfouissement,2024-04-03,201.36,Partielle,Fût,Non,CleanMed,Restauration
+244,Hopital_33,Togo,Nord,Infectieux,280.32,30655.34,Élevé,Autoclave,2023-09-22,91.3,En attente,Fût,Non,CleanMed,Maladies Infectieuses
+95,Hopital_29,Côte d'Ivoire,Littoral,Chimiques,242.0,24248.68,Moyen,Désinfection chimique,2024-07-15,130.51,Partielle,Sac rouge,Non,CleanMed,Oncologie
+432,Hopital_49,Cameroun,Extrême-Nord,Organiques,453.9,9661.3,Faible,Enfouissement,2024-03-08,205.08,Oui,Sac jaune,Non,SafeWaste,Restauration
+221,Hopital_37,Togo,Est,Chimiques,491.78,53088.06,Moyen,Désinfection chimique,2024-05-11,82.7,,Sac rouge,Non,EcoTrans,Maintenance
+339,Hopital_45,Togo,Ouest,Pharmaceutiques,299.58,46969.23,Moyen,Incinération,2024-10-24,42.56,En attente,Fût,Non,,Soins Palliatifs
+700,Hopital_33,RDC,Est,Radioactifs,121.72,29287.28,Élevé,Incinération,2024-10-20,82.03,Partielle,Conteneur rigide,Oui,,Oncologie
+357,Hopital_44,Côte d'Ivoire,Sud,Radioactifs,261.2,56048.15,Élevé,Incinération,2024-12-09,35.49,Oui,Carton DASRI,Non,Hopital Service,Oncologie
+341,Hopital_27,Sénégal,Est,Pharmaceutiques,150.66,23362.99,Moyen,Incinération,2023-10-22,90.6,Non,Sac jaune,Non,,Oncologie
+569,Hopital_29,RDC,Extrême-Nord,Piqûres/Coupures,313.49,67473.66,Élevé,Incinération,2023-08-10,154.26,Non,Carton DASRI,Non,BioLogistics,Soins Intensifs
+399,Hopital_9,Togo,Ouest,Chimiques,166.34,17073.27,Moyen,Désinfection chimique,2023-07-01,124.3,Non,Conteneur rigide,Non,SafeWaste,Oncologie
+379,Hopital_25,Gabon,Centre,Radioactifs,351.61,55814.15,Moyen,Incinération,2023-01-11,60.02,En attente,Fût,Non,Hopital Service,Radiologie
+99,Hopital_25,Cameroun,Sud,Piqûres/Coupures,248.73,57401.91,Élevé,Incinération,2023-06-07,13.86,Partielle,Carton DASRI,Non,CleanMed,Chirurgie
+253,Hopital_26,Cameroun,Est,Infectieux,270.86,59282.88,Élevé,Incinération,2023-03-12,91.23,En attente,Carton DASRI,Non,EcoTrans,Urgences
+9,Hopital_23,RDC,Nord,Organiques,94.82,1787.2,Faible,Enfouissement,2024-06-15,130.51,Non,Sac rouge,Non,CleanMed,Restauration
+204,Hopital_24,Gabon,Sud,Infectieux,102.68,11467.12,Élevé,Autoclave,2024-09-01,66.42,,Carton DASRI,Non,CleanMed,Urgences
+552,Hopital_50,Sénégal,Sud,Chimiques,277.3,28432.94,Moyen,Désinfection chimique,2024-02-01,88.12,En attente,Fût,Non,Hopital Service,Laboratoire
+155,Hopital_32,Côte d'Ivoire,Nord,Piqûres/Coupures,58.27,6475.17,Élevé,Autoclave,2024-04-18,155.1,En attente,Conteneur rigide,Non,Hopital Service,Urgences
+20,Hopital_44,Cameroun,Extrême-Nord,Organiques,164.14,3153.1,Faible,Enfouissement,2024-08-23,15.39,Oui,Sac rouge,Non,CleanMed,Restauration
+116,Hopital_41,RDC,Centre,Radioactifs,136.7,33111.59,Élevé,Incinération,2023-08-23,24.06,Non,Sac rouge,Non,Hopital Service,Radiologie
+324,Hopital_48,Bénin,Sud-Ouest,Radioactifs,9.99,2369.85,Élevé,Incinération,2023-05-26,203.58,Partielle,Sac rouge,Non,,Oncologie
+197,Hopital_33,Cameroun,Nord,Organiques,249.41,5074.65,Faible,Enfouissement,2023-10-27,130.51,En attente,Conteneur rigide,Non,Hopital Service,Restauration
+586,Hopital_32,Togo,Centre,Radioactifs,267.16,64858.99,Élevé,Incinération,2024-07-22,195.31,,Sac rouge,Non,SafeWaste,Médecine Nucléaire
+180,Hopital_30,RDC,Sud,Chimiques,83.19,9218.27,Moyen,Désinfection chimique,2023-09-23,211.08,Oui,Sac rouge,Non,CleanMed,Laboratoire
+481,Hopital_29,RDC,Adamaoua,Organiques,364.86,7611.2,Faible,Enfouissement,2024-07-04,197.0,En attente,Conteneur rigide,Non,EcoTrans,Restauration
+75,Hopital_10,Sénégal,Est,Organiques,192.53,3606.74,Faible,Enfouissement,2024-10-27,237.0,,Sac rouge,Non,,Services Généraux
+508,Hopital_23,Togo,Littoral,Piqûres/Coupures,78.08,9354.05,Élevé,Autoclave,2023-04-03,212.7,Partielle,Carton DASRI,Non,Hopital Service,Soins Intensifs
+680,Hopital_10,RDC,Nord,Pharmaceutiques,401.94,66284.19,Moyen,Incinération,2023-02-05,196.62,En attente,Sac jaune,Non,Hopital Service,Soins Palliatifs
+544,Hopital_43,RDC,Adamaoua,Infectieux,492.02,104611.47,Élevé,Incinération,2024-04-07,86.65,Partielle,Sac jaune,Non,Hopital Service,Maladies Infectieuses
+41,Hopital_21,Bénin,Adamaoua,Infectieux,33.36,4419.73,Élevé,Autoclave,2023-04-11,92.26,Oui,Carton DASRI,Non,Hopital Service,Maladies Infectieuses
+419,Hopital_14,Sénégal,Littoral,Piqûres/Coupures,308.92,40367.17,Élevé,Autoclave,2023-08-30,73.45,En attente,Sac rouge,Non,EcoTrans,Urgences
+159,Hopital_23,RDC,Est,Organiques,354.21,7081.65,Faible,Enfouissement,2023-08-18,105.4,Non,Fût,Non,BioLogistics,Restauration
+603,Hopital_25,Côte d'Ivoire,Ouest,Radioactifs,102.41,20833.34,Élevé,Incinération,2023-09-02,167.4,Non,Sac rouge,Non,SafeWaste,Radiologie
+296,Hopital_33,Sénégal,Extrême-Nord,Pharmaceutiques,326.93,47598.62,Moyen,Incinération,2023-07-02,170.53,Oui,Fût,Non,BioLogistics,Pharmacie
+427,Hopital_23,Sénégal,Sud,Piqûres/Coupures,66.61,14389.39,Élevé,Incinération,2024-10-06,30.4,,Conteneur rigide,Non,BioLogistics,Chirurgie
+371,Hopital_35,Gabon,Nord,Pharmaceutiques,217.86,35426.1,Moyen,Incinération,2023-07-25,245.58,En attente,Sac rouge,Non,SafeWaste,Pharmacie
+436,Hopital_43,RDC,Sud-Ouest,Pharmaceutiques,412.07,57774.43,Moyen,Incinération,2023-09-21,241.46,Partielle,Sac rouge,Non,BioLogistics,Pharmacie
+184,Hopital_39,Gabon,Sud,Pharmaceutiques,103.24,15339.41,Moyen,Incinération,2023-03-04,133.63,Partielle,Conteneur rigide,Non,SafeWaste,Pharmacie
+674,Hopital_6,Gabon,Ouest,Piqûres/Coupures,26.06,5810.48,Élevé,Incinération,2024-06-24,231.48,Partielle,Sac rouge,Non,EcoTrans,Chirurgie
+476,Hopital_1,Cameroun,Sud,Pharmaceutiques,289.02,45625.19,Moyen,Incinération,2024-03-10,159.72,En attente,Sac rouge,Non,EcoTrans,Oncologie
+269,Hopital_50,Côte d'Ivoire,Ouest,Radioactifs,174.62,37694.25,Élevé,Incinération,2023-08-22,26.77,,Sac rouge,Non,Hopital Service,Radiologie
+376,Hopital_33,Togo,Nord,Organiques,303.94,5952.5,Faible,Enfouissement,2023-07-24,15.7,En attente,Carton DASRI,Non,CleanMed,Maternité
+102,Hopital_24,Côte d'Ivoire,Littoral,Infectieux,382.99,50295.11,Élevé,Autoclave,2023-07-15,184.55,Partielle,Conteneur rigide,Non,SafeWaste,Maladies Infectieuses
+541,Hopital_33,Togo,Sud-Ouest,Infectieux,444.31,93399.17,Élevé,Incinération,2023-06-29,65.66,,Fût,Non,Hopital Service,Urgences
+242,Hopital_48,Bénin,Extrême-Nord,Infectieux,249.63,54012.87,Élevé,Incinération,2024-09-15,159.2,En attente,Conteneur rigide,Non,BioLogistics,Chirurgie
+663,Hopital_8,Sénégal,Littoral,Radioactifs,56.39,11666.1,Élevé,Incinération,2024-10-23,226.01,Partielle,Carton DASRI,Non,SafeWaste,Oncologie
+560,Hopital_10,Côte d'Ivoire,Littoral,Infectieux,29.77,3349.36,Élevé,Autoclave,2024-07-20,77.6,Partielle,Sac rouge,Non,EcoTrans,Maladies Infectieuses
+396,Hopital_17,Gabon,Extrême-Nord,Organiques,70.87,1324.72,Faible,Enfouissement,2023-03-15,95.5,En attente,Sac rouge,Non,BioLogistics,Restauration
+337,Hopital_38,Bénin,Centre,Infectieux,234.92,30037.3,Élevé,Autoclave,2024-08-02,166.41,Partielle,Sac rouge,Non,,Maladies Infectieuses
+193,Hopital_8,Bénin,Adamaoua,Piqûres/Coupures,33.54,7523.87,Élevé,Incinération,2024-10-26,61.63,Non,Sac rouge,Non,CleanMed,Soins Intensifs
+215,Hopital_17,RDC,Littoral,Pharmaceutiques,348.25,55054.26,Moyen,Incinération,2023-04-10,230.57,Oui,Conteneur rigide,Non,Hopital Service,Oncologie
+133,Hopital_35,Gabon,Littoral,Organiques,280.52,6087.56,Faible,Enfouissement,2024-03-30,131.03,Non,Fût,Non,CleanMed,Restauration
+553,Hopital_35,Côte d'Ivoire,Adamaoua,Pharmaceutiques,271.31,38961.58,Moyen,Incinération,2024-10-30,174.89,Oui,Fût,Non,EcoTrans,Pharmacie
+580,Hopital_35,Cameroun,Est,Chimiques,238.3,25508.98,Moyen,Désinfection chimique,2024-10-19,147.04,Partielle,Fût,Oui,BioLogistics,Maintenance
+633,Hopital_14,RDC,Extrême-Nord,Organiques,68.08,1360.02,Faible,Enfouissement,2023-02-07,6.47,En attente,Sac rouge,Non,CleanMed,Restauration
+316,Hopital_16,Cameroun,Littoral,Pharmaceutiques,370.21,51056.57,Moyen,Incinération,2024-03-22,5.33,En attente,Carton DASRI,Non,BioLogistics,Pharmacie
+237,Hopital_5,Bénin,Centre,Chimiques,334.29,33449.07,Moyen,Désinfection chimique,2024-05-06,17.87,Oui,Sac rouge,Non,,Laboratoire
+533,Hopital_35,Côte d'Ivoire,Extrême-Nord,Pharmaceutiques,12.65,2157.91,Faible,Incinération,2023-03-04,209.97,Non,Sac rouge,Oui,Hopital Service,Pharmacie
+1,Hopital_39,Gabon,Sud,Organiques,495.91,14070.13,Élevé,Enfouissement,2024-09-22,204.57,Partielle,Sac jaune,Non,SafeWaste,Maternité
+613,Hopital_9,RDC,Ouest,Organiques,382.5,8365.68,Faible,Enfouissement,2023-11-21,27.89,Oui,Conteneur rigide,Non,CleanMed,Restauration
+355,Hopital_49,Togo,Centre,Infectieux,497.72,122821.79,Élevé,Incinération,2023-01-20,227.92,En attente,Fût,Non,,Maladies Infectieuses
+327,Hopital_7,Togo,Sud,Pharmaceutiques,153.07,23714.26,Moyen,Incinération,2024-07-22,72.09,Oui,Sac rouge,Non,CleanMed,Oncologie
+495,Hopital_46,RDC,Centre,Radioactifs,216.06,46223.38,Élevé,Incinération,2024-09-21,130.55,Partielle,Sac rouge,Non,CleanMed,Oncologie
+636,Hopital_35,Sénégal,Extrême-Nord,Infectieux,402.41,89427.72,Élevé,Incinération,2024-08-24,76.46,Oui,Sac jaune,Non,Hopital Service,Laboratoire
+195,Hopital_9,Togo,Adamaoua,Organiques,454.7,9754.07,Faible,Enfouissement,2023-11-27,130.51,Non,Sac rouge,Non,Hopital Service,Restauration
+438,Hopital_33,RDC,Sud-Ouest,Piqûres/Coupures,410.78,90443.18,Élevé,Incinération,2024-07-16,49.72,Oui,Sac jaune,Non,EcoTrans,Urgences
+261,Hopital_40,Côte d'Ivoire,Nord,Organiques,414.3,8678.36,Faible,Enfouissement,2024-05-29,145.62,Non,Sac rouge,Non,Hopital Service,Restauration
+2,Hopital_29,Bénin,Sud,Pharmaceutiques,249.63,36144.55,Moyen,Incinération,2023-02-27,163.01,Partielle,Sac rouge,Non,EcoTrans,Oncologie
+156,Hopital_4,Cameroun,Sud-Ouest,Pharmaceutiques,430.21,65030.49,Faible,Incinération,2024-01-22,73.81,En attente,Carton DASRI,Non,,Pharmacie
+467,Hopital_1,Bénin,Nord,Pharmaceutiques,61.16,9876.99,Moyen,Incinération,2024-02-11,81.56,Oui,Sac rouge,Non,Hopital Service,Soins Palliatifs
+686,Hopital_13,Côte d'Ivoire,Sud,Infectieux,113.79,13787.74,Élevé,Autoclave,2024-01-31,27.35,Non,Sac jaune,Non,SafeWaste,Maladies Infectieuses
+66,Hopital_2,Gabon,Extrême-Nord,Piqûres/Coupures,499.18,122518.38,Élevé,Incinération,2024-04-11,52.03,Non,Sac jaune,Non,Hopital Service,Chirurgie
+169,Hopital_22,Gabon,Ouest,Infectieux,206.47,49581.18,Élevé,Incinération,2023-03-13,144.42,Oui,Fût,Oui,Hopital Service,Laboratoire
+367,Hopital_29,RDC,Adamaoua,Radioactifs,286.31,65019.58,Élevé,Incinération,2024-09-08,203.91,Non,Fût,Non,CleanMed,Radiologie
+248,Hopital_29,Cameroun,Sud,Chimiques,40.62,4262.1,Moyen,Désinfection chimique,2023-09-26,249.11,Non,Fût,Non,SafeWaste,Laboratoire
+175,Hopital_28,Sénégal,Sud-Ouest,Radioactifs,230.16,51652.22,Élevé,Incinération,2024-11-25,31.89,Non,Sac rouge,Non,SafeWaste,Radiologie
+426,Hopital_32,Bénin,Adamaoua,Pharmaceutiques,496.42,101651.57,Élevé,Incinération,2023-08-03,28.96,En attente,Conteneur rigide,Non,BioLogistics,Pharmacie
+567,Hopital_45,Gabon,Sud,Infectieux,70.46,8038.38,Élevé,Autoclave,2023-11-30,96.53,,Conteneur rigide,Non,BioLogistics,Urgences
+482,Hopital_3,Gabon,Sud-Ouest,Piqûres/Coupures,326.49,41161.51,Élevé,Autoclave,2024-06-19,248.24,Partielle,Sac jaune,Non,EcoTrans,Urgences
+406,Hopital_35,Sénégal,Est,Pharmaceutiques,3.75,616.07,Faible,Incinération,2023-02-25,72.47,Partielle,Sac rouge,Non,CleanMed,Pharmacie
+70,Hopital_29,Sénégal,Centre,Infectieux,318.45,66440.03,Élevé,Incinération,2023-12-02,146.05,En attente,Carton DASRI,Non,CleanMed,Laboratoire
+264,Hopital_40,Cameroun,Adamaoua,Organiques,356.29,7589.03,Faible,Enfouissement,2024-06-16,64.26,Non,Sac rouge,Non,BioLogistics,Maternité
+178,Hopital_44,Côte d'Ivoire,Est,Piqûres/Coupures,101.48,23347.17,Élevé,Incinération,2023-06-20,9.84,,Sac rouge,Non,Hopital Service,Soins Intensifs
+641,Hopital_18,Sénégal,Littoral,Pharmaceutiques,498.91,77988.35,Moyen,Incinération,2024-02-09,154.79,En attente,Carton DASRI,Non,SafeWaste,Oncologie
+322,Hopital_14,Côte d'Ivoire,Sud-Ouest,Piqûres/Coupures,377.23,86941.9,Élevé,Incinération,2023-03-18,66.59,Partielle,Sac jaune,Non,,Chirurgie
+561,Hopital_26,Côte d'Ivoire,Sud-Ouest,Infectieux,171.88,39507.59,Élevé,Incinération,2024-03-11,45.92,Partielle,Fût,Non,CleanMed,Laboratoire
+272,Hopital_30,RDC,Nord,Radioactifs,325.92,78699.62,Élevé,Incinération,2024-05-23,92.05,En attente,Sac jaune,Non,BioLogistics,Radiologie
+128,Hopital_35,Cameroun,Nord,Chimiques,174.32,18243.94,Moyen,Désinfection chimique,2024-03-04,130.51,Partielle,Fût,Non,CleanMed,Laboratoire
+126,Hopital_24,Cameroun,Extrême-Nord,Pharmaceutiques,266.68,43335.25,Moyen,Incinération,2023-02-24,217.95,Oui,Fût,Non,SafeWaste,Oncologie
+164,Hopital_29,Gabon,Ouest,Chimiques,83.72,7637.0,Moyen,Désinfection chimique,2023-05-02,19.66,Oui,Sac jaune,Non,BioLogistics,Laboratoire
+280,Hopital_2,Gabon,Nord,Pharmaceutiques,338.41,47640.86,Moyen,Incinération,2024-09-12,30.75,,Fût,Non,,Pharmacie
+114,Hopital_42,Côte d'Ivoire,Sud-Ouest,Organiques,453.22,9775.19,Faible,Enfouissement,2024-11-30,58.48,Partielle,Carton DASRI,Non,,Restauration
+498,Hopital_16,Bénin,Adamaoua,Organiques,186.22,3526.8,Faible,Enfouissement,2023-09-19,245.34,Non,Sac rouge,Non,EcoTrans,Services Généraux
+154,Hopital_49,Gabon,Adamaoua,Organiques,262.17,5011.98,Faible,Enfouissement,2023-10-14,233.12,Oui,Sac rouge,Non,BioLogistics,Services Généraux
+611,Hopital_19,Togo,Centre,Infectieux,204.38,47518.37,Élevé,Incinération,2024-04-02,130.51,Partielle,Conteneur rigide,Non,BioLogistics,Maladies Infectieuses
+249,Hopital_3,Gabon,Nord,Radioactifs,366.02,89307.87,Élevé,Incinération,2023-02-26,77.04,Oui,Conteneur rigide,Non,,Oncologie
+590,Hopital_37,RDC,Sud-Ouest,Chimiques,63.29,6013.18,Moyen,Désinfection chimique,2023-07-08,174.96,En attente,Carton DASRI,Non,SafeWaste,Maintenance
+640,Hopital_11,RDC,Ouest,Organiques,5.42,117.79,Faible,Enfouissement,2023-04-04,35.28,En attente,Sac rouge,Non,EcoTrans,Restauration
+421,Hopital_23,Bénin,Sud-Ouest,Chimiques,173.27,18463.36,Moyen,Désinfection chimique,2024-01-24,52.97,En attente,Conteneur rigide,Non,Hopital Service,Laboratoire
+277,Hopital_26,Sénégal,Sud,Infectieux,489.57,64016.22,Élevé,Autoclave,2023-05-21,60.91,Oui,Carton DASRI,Non,Hopital Service,Urgences
+473,Hopital_25,Sénégal,Nord,Piqûres/Coupures,211.6,25886.45,Élevé,Autoclave,2024-05-23,195.48,Partielle,Carton DASRI,Non,Hopital Service,Chirurgie
+55,Hopital_7,Gabon,Est,Infectieux,354.13,38916.85,Élevé,Autoclave,2024-12-22,10.11,Partielle,Sac jaune,Non,Hopital Service,Maladies Infectieuses
+457,Hopital_19,Gabon,Littoral,Infectieux,334.62,77313.97,Élevé,Incinération,2024-02-01,31.08,Oui,Fût,Oui,SafeWaste,Laboratoire
+240,Hopital_22,Gabon,Extrême-Nord,Piqûres/Coupures,441.08,54176.87,Élevé,Autoclave,2024-06-25,211.14,Oui,Fût,Non,CleanMed,Chirurgie
+347,Hopital_28,Cameroun,Ouest,Chimiques,297.02,29701.29,Moyen,Désinfection chimique,2023-01-05,20.04,Partielle,Sac rouge,Non,Hopital Service,Laboratoire
+589,Hopital_32,Bénin,Est,Radioactifs,395.46,64618.73,Faible,Incinération,2024-07-21,114.37,Oui,Conteneur rigide,Non,EcoTrans,Radiologie
+440,Hopital_44,Gabon,Sud,Organiques,318.56,6736.77,Faible,Enfouissement,2024-09-25,11.98,Non,Conteneur rigide,Non,SafeWaste,Restauration
+54,Hopital_47,Côte d'Ivoire,Centre,Piqûres/Coupures,249.63,51452.25,Élevé,Incinération,2024-09-08,130.51,Oui,Fût,Non,EcoTrans,Chirurgie
+523,Hopital_16,Bénin,Sud,Chimiques,71.14,6545.77,Moyen,Désinfection chimique,2023-01-11,91.87,,Conteneur rigide,Non,EcoTrans,Maintenance
+182,Hopital_28,Togo,Est,Chimiques,378.62,34754.84,Moyen,Désinfection chimique,2023-03-10,219.97,En attente,Fût,Non,BioLogistics,Laboratoire
+257,Hopital_32,Cameroun,Sud,Organiques,411.0,8743.73,Faible,Enfouissement,2023-01-11,84.94,Non,Fût,Non,CleanMed,Maternité
+161,Hopital_45,RDC,Ouest,Piqûres/Coupures,41.78,10349.5,Élevé,Incinération,2023-10-07,130.51,Partielle,Sac rouge,Non,CleanMed,Soins Intensifs
+468,Hopital_1,Bénin,Ouest,Pharmaceutiques,451.32,71305.28,Moyen,Incinération,2023-01-12,83.27,,Fût,Non,,Pharmacie
+81,Hopital_8,Bénin,Sud-Ouest,Chimiques,14.07,1472.93,Moyen,Désinfection chimique,2024-09-08,170.94,Oui,Sac jaune,Oui,CleanMed,Laboratoire
+198,Hopital_42,Sénégal,Extrême-Nord,Pharmaceutiques,53.63,7538.79,Moyen,Incinération,2023-08-07,207.71,Partielle,Carton DASRI,Non,BioLogistics,Oncologie
+362,Hopital_6,RDC,Sud,Pharmaceutiques,47.83,6708.62,Moyen,Incinération,2023-12-15,176.61,Non,Carton DASRI,Non,,Pharmacie
+317,Hopital_41,Bénin,Extrême-Nord,Infectieux,459.12,100094.38,Élevé,Incinération,2023-12-29,9.53,Partielle,Fût,Non,BioLogistics,Chirurgie
+169,Hopital_22,Gabon,Ouest,Infectieux,206.47,48440.15,Élevé,Incinération,2023-03-13,144.42,Oui,Fût,Oui,Hopital Service,Urgences
+140,Hopital_1,Sénégal,Centre,Piqûres/Coupures,129.01,18851.42,Moyen,Incinération,2024-11-01,238.67,En attente,Sac rouge,Non,SafeWaste,Soins Intensifs
+505,Hopital_33,RDC,Littoral,Piqûres/Coupures,72.15,16818.01,Élevé,Incinération,2024-09-07,127.61,Non,Conteneur rigide,Non,CleanMed,Soins Intensifs
+524,Hopital_2,Côte d'Ivoire,Nord,Organiques,243.31,4485.82,Faible,Enfouissement,2023-11-07,29.61,Partielle,Carton DASRI,Non,SafeWaste,Maternité
+430,Hopital_22,RDC,Est,Pharmaceutiques,211.49,31979.67,Moyen,Incinération,2023-08-26,30.05,En attente,Fût,Non,BioLogistics,Soins Palliatifs
+564,Hopital_7,Côte d'Ivoire,Est,Radioactifs,279.3,66907.02,Élevé,Incinération,2023-12-05,27.72,En attente,Sac rouge,Non,Hopital Service,Oncologie
+504,Hopital_36,Côte d'Ivoire,Sud,Piqûres/Coupures,215.83,48596.89,Élevé,Incinération,2024-05-29,212.73,Oui,Sac rouge,Non,,Urgences
+491,Hopital_5,Cameroun,Littoral,Piqûres/Coupures,399.39,46538.72,Élevé,Autoclave,2024-06-23,165.09,Partielle,Carton DASRI,Non,BioLogistics,Chirurgie
+459,Hopital_19,Bénin,Ouest,Piqûres/Coupures,181.6,23243.36,Élevé,Autoclave,2023-03-28,19.19,En attente,Sac jaune,Non,EcoTrans,Urgences
+352,Hopital_19,Gabon,Adamaoua,Chimiques,397.49,36503.72,Moyen,Désinfection chimique,2024-04-15,194.96,Partielle,Carton DASRI,Non,CleanMed,Laboratoire
+696,Hopital_13,Sénégal,Centre,Chimiques,293.35,26745.92,Moyen,Désinfection chimique,2023-10-29,130.51,Non,Carton DASRI,Non,BioLogistics,Laboratoire
+276,Hopital_16,Gabon,Ouest,Piqûres/Coupures,236.17,48747.64,Élevé,Incinération,2024-10-17,130.51,Oui,Sac rouge,Non,,Chirurgie
+36,Hopital_47,Togo,Nord,Radioactifs,397.3,86328.83,Élevé,Incinération,2024-09-27,100.23,Non,Sac rouge,Non,SafeWaste,Radiologie
+581,Hopital_48,RDC,Sud,Organiques,249.63,4629.88,Faible,Enfouissement,2023-10-22,57.36,En attente,Carton DASRI,Non,BioLogistics,Restauration
+255,Hopital_19,Cameroun,Sud,Radioactifs,157.86,32568.76,Élevé,Incinération,2023-01-26,147.62,Oui,Carton DASRI,Non,EcoTrans,Radiologie
+588,Hopital_23,Bénin,Ouest,Radioactifs,66.2,15660.08,Élevé,Incinération,2024-11-14,170.47,Oui,Carton DASRI,Non,CleanMed,Oncologie
+624,Hopital_25,Bénin,Est,Pharmaceutiques,224.71,33732.48,Moyen,Incinération,2024-08-09,140.16,Non,Conteneur rigide,Non,,Pharmacie
+209,Hopital_39,Côte d'Ivoire,Sud-Ouest,Radioactifs,317.66,73008.61,Élevé,Incinération,2024-11-09,152.67,Non,Sac jaune,Non,SafeWaste,Médecine Nucléaire
+85,Hopital_21,Cameroun,Sud,Radioactifs,259.52,62352.35,Élevé,Incinération,2024-06-11,83.69,En attente,Fût,Non,SafeWaste,Oncologie
+657,Hopital_2,Cameroun,Adamaoua,Organiques,244.33,4544.24,Faible,Enfouissement,2023-09-15,118.73,En attente,Sac jaune,Non,Hopital Service,Restauration
+168,Hopital_7,RDC,Ouest,Chimiques,231.69,22054.52,Moyen,Désinfection chimique,2024-03-31,9.54,Partielle,Fût,Non,CleanMed,Laboratoire
+340,Hopital_8,Sénégal,Adamaoua,Organiques,149.32,3295.22,Faible,Enfouissement,2023-03-04,42.45,Oui,Fût,Non,SafeWaste,Restauration
+481,Hopital_29,RDC,Adamaoua,Organiques,364.86,7561.64,Faible,Enfouissement,2024-07-04,197.0,En attente,Conteneur rigide,Non,EcoTrans,Services Généraux
+384,Hopital_46,Gabon,Centre,Organiques,244.35,5377.18,Faible,Enfouissement,2023-09-13,81.83,Oui,Fût,Non,EcoTrans,Maternité
+30,Hopital_49,Gabon,Adamaoua,Organiques,196.37,4146.16,Faible,Enfouissement,2024-04-14,149.19,En attente,Carton DASRI,Non,BioLogistics,Restauration
+252,Hopital_19,Côte d'Ivoire,Extrême-Nord,Piqûres/Coupures,409.71,47297.69,Élevé,Autoclave,2023-02-05,234.47,Partielle,Fût,Non,Hopital Service,Chirurgie
+587,Hopital_24,Togo,Adamaoua,Pharmaceutiques,435.11,70778.14,Moyen,Incinération,2024-02-07,209.22,,Sac rouge,Non,Hopital Service,Pharmacie
+584,Hopital_49,Togo,Est,Pharmaceutiques,454.82,68452.94,Moyen,Incinération,2023-09-18,226.21,Non,Conteneur rigide,Non,SafeWaste,Pharmacie
+538,Hopital_12,Bénin,Sud-Ouest,Chimiques,58.95,5722.02,Moyen,Désinfection chimique,2024-08-20,35.84,En attente,Sac jaune,Non,Hopital Service,Maintenance
+147,Hopital_15,Sénégal,Littoral,Radioactifs,175.4,36153.06,Élevé,Incinération,2024-06-07,112.21,Non,Sac rouge,Non,EcoTrans,Radiologie
+216,Hopital_49,RDC,Sud-Ouest,Chimiques,396.84,37878.15,Moyen,Désinfection chimique,2024-06-03,109.96,Non,Sac rouge,Non,Hopital Service,Laboratoire
+284,Hopital_5,Gabon,Ouest,Piqûres/Coupures,88.27,11198.29,Élevé,Autoclave,2024-08-22,61.13,Partielle,Sac rouge,Non,Hopital Service,Soins Intensifs
+89,Hopital_47,Côte d'Ivoire,Adamaoua,Organiques,215.4,4787.99,Faible,Enfouissement,2024-08-29,147.22,En attente,Sac jaune,Non,EcoTrans,Restauration
+691,Hopital_8,Cameroun,Nord,Organiques,324.26,6353.19,Faible,Enfouissement,2024-08-23,175.16,Partielle,Sac rouge,Oui,BioLogistics,Restauration
+480,Hopital_22,Sénégal,Centre,Pharmaceutiques,249.63,38828.54,Moyen,Incinération,2024-06-30,156.98,Non,Conteneur rigide,Non,Hopital Service,Oncologie
+185,Hopital_33,Cameroun,Est,Pharmaceutiques,439.04,69993.13,Moyen,Incinération,2023-02-22,97.61,En attente,Sac jaune,Oui,CleanMed,Pharmacie
+678,Hopital_39,Bénin,Centre,Chimiques,116.96,11723.09,Moyen,Désinfection chimique,2024-11-18,105.45,Non,Sac jaune,Non,Hopital Service,Laboratoire
+429,Hopital_25,Cameroun,Ouest,Pharmaceutiques,197.89,31868.23,Moyen,Incinération,2024-06-30,111.7,Non,Conteneur rigide,Non,SafeWaste,Pharmacie
+387,Hopital_32,RDC,Est,Organiques,300.72,6592.22,Moyen,Enfouissement,2024-12-27,142.75,En attente,Sac jaune,Non,BioLogistics,Maternité
+454,Hopital_50,Côte d'Ivoire,Centre,Piqûres/Coupures,41.01,8596.41,Élevé,Incinération,2024-01-14,135.13,Partielle,Fût,Non,EcoTrans,Chirurgie
+661,Hopital_38,Côte d'Ivoire,Sud-Ouest,Organiques,33.94,734.84,Faible,Enfouissement,2023-10-24,52.33,Non,Carton DASRI,Non,SafeWaste,Maternité
+470,Hopital_34,Côte d'Ivoire,Sud,Piqûres/Coupures,267.45,32653.73,Élevé,Autoclave,2024-09-09,5.28,Oui,Sac jaune,Non,CleanMed,Chirurgie
+406,Hopital_35,Sénégal,Est,Pharmaceutiques,3.75,546.84,Moyen,Incinération,2023-02-25,72.47,Partielle,Sac rouge,Non,CleanMed,Pharmacie
+418,Hopital_16,Gabon,Nord,Infectieux,44.46,9075.67,Élevé,Incinération,2024-03-06,60.1,En attente,Fût,Non,SafeWaste,Maladies Infectieuses
+326,Hopital_8,RDC,Sud,Piqûres/Coupures,249.63,27701.22,Élevé,Autoclave,2024-06-02,227.97,Non,Sac jaune,Non,BioLogistics,Vaccination
+72,Hopital_26,Bénin,Ouest,Pharmaceutiques,60.05,9520.04,Moyen,Incinération,2024-05-28,196.96,Oui,Carton DASRI,Non,BioLogistics,Pharmacie
+408,Hopital_25,Gabon,Sud-Ouest,Infectieux,110.32,26590.22,Élevé,Incinération,2023-04-14,247.05,Partielle,Sac rouge,Non,Hopital Service,Chirurgie
+466,Hopital_12,Côte d'Ivoire,Est,Infectieux,362.26,40345.71,Élevé,Autoclave,2023-03-26,81.25,,Conteneur rigide,Non,BioLogistics,Maladies Infectieuses
+385,Hopital_24,Cameroun,Sud-Ouest,Radioactifs,326.46,74596.96,Élevé,Incinération,2024-07-19,200.38,Oui,Sac rouge,Non,BioLogistics,Oncologie
+639,Hopital_43,Sénégal,Littoral,Pharmaceutiques,478.77,73718.36,Moyen,Incinération,2023-01-24,239.26,Oui,Carton DASRI,Non,BioLogistics,Soins Palliatifs
+685,Hopital_45,Côte d'Ivoire,Sud,Piqûres/Coupures,238.74,49182.45,Élevé,Incinération,2024-11-28,29.48,Partielle,Carton DASRI,Non,CleanMed,Soins Intensifs
+338,Hopital_38,Gabon,Sud,Piqûres/Coupures,151.33,19220.37,Élevé,Autoclave,2023-02-05,130.51,En attente,Sac rouge,Non,EcoTrans,Soins Intensifs
+632,Hopital_39,Côte d'Ivoire,Ouest,Radioactifs,346.57,83092.85,Élevé,Incinération,2024-11-13,110.52,Non,Conteneur rigide,Non,EcoTrans,Radiologie
+463,Hopital_26,Gabon,Sud-Ouest,Organiques,456.73,8699.14,Faible,Enfouissement,2023-04-14,130.51,Oui,Conteneur rigide,Non,CleanMed,Restauration
+617,Hopital_31,Gabon,Littoral,Pharmaceutiques,55.52,8160.39,Moyen,Incinération,2023-03-09,130.51,Partielle,Sac rouge,Non,SafeWaste,Oncologie
+313,Hopital_18,Gabon,Littoral,Organiques,249.63,4840.34,Faible,Enfouissement,2024-08-24,82.34,Oui,Sac jaune,Non,BioLogistics,Restauration
+328,Hopital_3,RDC,Nord,Pharmaceutiques,414.87,56258.32,Moyen,Incinération,2023-08-02,69.61,Partielle,Sac rouge,Non,CleanMed,Pharmacie
+204,Hopital_24,Gabon,Sud,Infectieux,102.68,21761.1,Élevé,Incinération,2024-09-01,66.42,,Carton DASRI,Non,CleanMed,Laboratoire
+300,Hopital_8,Côte d'Ivoire,Ouest,Radioactifs,249.63,56167.61,Élevé,Incinération,2023-02-06,162.42,Oui,Fût,Non,SafeWaste,Oncologie
+112,Hopital_33,Bénin,Ouest,Chimiques,131.59,14176.55,Moyen,Désinfection chimique,2023-09-09,130.51,Oui,Carton DASRI,Non,SafeWaste,Laboratoire
+53,Hopital_28,Togo,Extrême-Nord,Piqûres/Coupures,167.78,36333.55,Élevé,Incinération,2024-04-26,63.78,,Sac jaune,Non,EcoTrans,Vaccination
+395,Hopital_26,Sénégal,Sud,Chimiques,23.78,2424.8,Moyen,Désinfection chimique,2024-03-24,196.29,En attente,Carton DASRI,Non,Hopital Service,Maintenance
+25,Hopital_33,Gabon,Ouest,Pharmaceutiques,249.63,34528.44,Moyen,Incinération,2023-07-20,140.14,Partielle,Sac rouge,Non,EcoTrans,Pharmacie
+270,Hopital_23,Bénin,Centre,Infectieux,249.63,32272.42,Élevé,Autoclave,2023-10-06,130.51,Oui,Sac rouge,Non,,Urgences
+554,Hopital_23,RDC,Adamaoua,Piqûres/Coupures,381.19,83775.24,Élevé,Incinération,2023-05-06,38.85,Partielle,Conteneur rigide,Non,SafeWaste,Soins Intensifs
+265,Hopital_1,Sénégal,Ouest,Pharmaceutiques,413.16,58763.79,Moyen,Incinération,2023-05-13,203.21,En attente,Sac jaune,Non,SafeWaste,Pharmacie
+329,Hopital_17,Gabon,Adamaoua,Infectieux,141.48,17756.13,Élevé,Autoclave,2024-03-10,191.66,Oui,Sac rouge,Non,BioLogistics,Maladies Infectieuses
+34,Hopital_16,Cameroun,Est,Infectieux,310.18,74391.37,Élevé,Incinération,2024-10-12,130.51,,Sac rouge,Non,SafeWaste,Maladies Infectieuses
+514,Hopital_10,Gabon,Ouest,Pharmaceutiques,205.4,32403.68,Moyen,Incinération,2023-12-19,89.22,Non,Sac jaune,Non,BioLogistics,Pharmacie
+417,Hopital_46,Cameroun,Ouest,Organiques,249.63,5287.8,Faible,Enfouissement,2024-03-01,185.44,Oui,Carton DASRI,Non,CleanMed,Restauration
+310,Hopital_29,RDC,Sud-Ouest,Piqûres/Coupures,273.78,61241.11,Élevé,Incinération,2024-10-28,8.63,Non,Conteneur rigide,Oui,Hopital Service,Urgences
+174,Hopital_6,Sénégal,Adamaoua,Organiques,403.4,8510.0,Faible,Enfouissement,2024-09-15,130.51,Partielle,Fût,Non,SafeWaste,Maternité
+666,Hopital_1,Bénin,Ouest,Radioactifs,37.09,8943.85,Élevé,Incinération,2024-08-18,191.81,Partielle,Sac rouge,Non,CleanMed,Oncologie
+683,Hopital_39,Gabon,Littoral,Radioactifs,453.15,92432.54,Élevé,Incinération,2024-01-10,130.51,Partielle,Fût,Non,BioLogistics,Oncologie
+494,Hopital_30,RDC,Littoral,Organiques,458.4,9669.65,Faible,Enfouissement,2024-07-20,26.3,,Sac jaune,Non,EcoTrans,Maternité
+443,Hopital_39,Bénin,Est,Radioactifs,30.7,6941.91,Élevé,Incinération,2023-09-10,144.32,En attente,Carton DASRI,Non,,Oncologie
+58,Hopital_47,Cameroun,Sud,Pharmaceutiques,220.66,35910.27,Moyen,Incinération,2023-07-02,203.7,Partielle,Sac rouge,Non,BioLogistics,Pharmacie
+34,Hopital_16,Cameroun,Est,Infectieux,310.18,66721.62,Élevé,Incinération,2024-10-12,130.51,,Sac rouge,Non,SafeWaste,Laboratoire
+562,Hopital_34,Bénin,Littoral,Pharmaceutiques,135.85,20509.82,Moyen,Incinération,2023-11-13,219.33,Oui,Sac rouge,Non,SafeWaste,Pharmacie
+16,Hopital_3,Togo,Est,Chimiques,373.12,39400.58,Moyen,Désinfection chimique,2024-03-12,12.48,En attente,Conteneur rigide,Non,CleanMed,Laboratoire
+233,Hopital_11,Bénin,Adamaoua,Piqûres/Coupures,253.1,59152.07,Élevé,Incinération,2023-07-10,183.98,Partielle,Sac rouge,Non,EcoTrans,Soins Intensifs
+203,Hopital_32,Sénégal,Ouest,Chimiques,482.27,44121.72,Moyen,Désinfection chimique,2023-06-03,9.13,Oui,Sac jaune,Oui,BioLogistics,Laboratoire
+67,Hopital_6,Côte d'Ivoire,Extrême-Nord,Infectieux,466.62,55669.33,Élevé,Autoclave,2023-07-17,131.61,Oui,Conteneur rigide,Non,SafeWaste,Maladies Infectieuses
+510,Hopital_5,RDC,Adamaoua,Piqûres/Coupures,323.27,79887.42,Élevé,Incinération,2023-04-16,130.51,,Sac rouge,Non,CleanMed,Urgences
+536,Hopital_43,Gabon,Extrême-Nord,Chimiques,145.33,15003.68,Moyen,Désinfection chimique,2024-11-03,196.55,Oui,Conteneur rigide,Non,Hopital Service,Maintenance
+107,Hopital_11,Gabon,Ouest,Chimiques,328.82,33626.51,Moyen,Désinfection chimique,2023-02-20,245.86,Oui,Carton DASRI,Non,Hopital Service,Laboratoire
+84,Hopital_40,Gabon,Nord,Infectieux,137.26,19163.38,Moyen,Incinération,2023-05-17,179.47,Partielle,Sac rouge,Non,EcoTrans,Maladies Infectieuses
+618,Hopital_19,RDC,Extrême-Nord,Pharmaceutiques,427.13,59368.86,Moyen,Incinération,2024-09-15,116.05,Non,Fût,Oui,Hopital Service,Pharmacie
+690,Hopital_28,Bénin,Sud-Ouest,Piqûres/Coupures,179.55,22881.51,Élevé,Autoclave,2023-11-05,72.88,Partielle,Sac jaune,Oui,BioLogistics,Soins Intensifs
+106,Hopital_24,RDC,Ouest,Organiques,375.94,7075.93,Faible,Enfouissement,2023-01-23,18.41,Partielle,Conteneur rigide,Non,Hopital Service,Restauration
+199,Hopital_44,Cameroun,Centre,Infectieux,328.73,27236.65,Moyen,Autoclave,2023-11-22,65.57,Oui,Sac jaune,Non,BioLogistics,Chirurgie
+526,Hopital_28,Cameroun,Nord,Chimiques,253.22,25951.31,Moyen,Désinfection chimique,2024-05-09,130.51,Non,Sac jaune,Non,EcoTrans,Maintenance
+230,Hopital_6,Côte d'Ivoire,Sud-Ouest,Piqûres/Coupures,42.65,10350.64,Élevé,Incinération,2024-07-24,127.04,Oui,Sac rouge,Non,EcoTrans,Soins Intensifs
+503,Hopital_39,Gabon,Sud,Infectieux,84.26,20237.65,Élevé,Incinération,2023-08-14,243.38,Partielle,Conteneur rigide,Non,SafeWaste,Maladies Infectieuses
+104,Hopital_44,Cameroun,Centre,Radioactifs,249.63,59985.92,Élevé,Incinération,2024-04-22,139.56,Partielle,Fût,Non,BioLogistics,Oncologie
+138,Hopital_14,RDC,Est,Radioactifs,365.68,89942.87,Élevé,Incinération,2023-06-27,130.51,Non,Conteneur rigide,Non,Hopital Service,Radiologie
+512,Hopital_34,Cameroun,Est,Piqûres/Coupures,170.96,40602.55,Élevé,Incinération,2023-06-19,34.3,Partielle,Sac rouge,Non,BioLogistics,Urgences
+189,Hopital_41,RDC,Sud-Ouest,Pharmaceutiques,226.17,30684.17,Moyen,Incinération,2024-12-04,237.9,Non,Carton DASRI,Oui,Hopital Service,Pharmacie
+291,Hopital_48,Gabon,Extrême-Nord,Chimiques,256.81,27565.75,Moyen,Désinfection chimique,2024-12-21,181.9,En attente,Fût,Non,EcoTrans,Laboratoire
+43,Hopital_39,Togo,Ouest,Infectieux,281.18,35130.62,Élevé,Autoclave,2023-09-14,48.01,Non,Sac rouge,Non,CleanMed,Laboratoire
+404,Hopital_42,RDC,Est,Organiques,104.29,2023.91,Faible,Enfouissement,2023-10-10,11.93,Non,Sac rouge,Non,SafeWaste,Maternité
+566,Hopital_50,Sénégal,Sud-Ouest,Pharmaceutiques,290.65,42081.06,Moyen,Incinération,2023-02-28,159.2,Non,Carton DASRI,Non,Hopital Service,Oncologie
+186,Hopital_1,RDC,Centre,Organiques,439.91,9598.64,Faible,Enfouissement,2024-02-28,47.37,Partielle,Conteneur rigide,Non,BioLogistics,Restauration
+261,Hopital_40,Côte d'Ivoire,Nord,Organiques,414.3,7847.57,Faible,Enfouissement,2024-05-29,145.62,Non,Sac rouge,Non,Hopital Service,Services Généraux
+285,Hopital_37,Côte d'Ivoire,Adamaoua,Organiques,428.01,8401.0,Faible,Enfouissement,2023-03-01,238.98,Partielle,Conteneur rigide,Non,Hopital Service,Services Généraux
+162,Hopital_15,Bénin,Nord,Pharmaceutiques,229.69,34667.95,Moyen,Incinération,2024-01-27,57.16,Oui,Sac rouge,Non,EcoTrans,Pharmacie
+56,Hopital_44,RDC,Est,Chimiques,394.52,42899.86,Moyen,Désinfection chimique,2023-05-02,61.04,En attente,Sac jaune,Non,EcoTrans,Maintenance
+97,Hopital_45,Cameroun,Sud-Ouest,Radioactifs,41.22,8553.56,Élevé,Incinération,2024-01-30,17.92,Oui,Fût,Non,BioLogistics,Oncologie
+612,Hopital_12,Gabon,Sud,Chimiques,413.93,39090.87,Moyen,Désinfection chimique,2023-04-01,130.51,En attente,Sac jaune,Non,Hopital Service,Maintenance
+398,Hopital_33,Côte d'Ivoire,Nord,Chimiques,485.79,52653.74,Moyen,Désinfection chimique,2024-10-23,18.53,Partielle,Fût,Non,CleanMed,Maintenance
+188,Hopital_13,Gabon,Nord,Infectieux,120.16,27746.44,Élevé,Incinération,2023-04-15,173.59,Partielle,Carton DASRI,Non,SafeWaste,Laboratoire
+7,Hopital_39,Bénin,Est,Radioactifs,366.8,88639.47,Élevé,Incinération,2024-06-05,147.92,Partielle,Sac jaune,Non,EcoTrans,Radiologie
+120,Hopital_8,Sénégal,Ouest,Organiques,33.62,656.7,Faible,Enfouissement,2024-09-26,90.86,Partielle,Conteneur rigide,Non,CleanMed,Restauration
+343,Hopital_34,Côte d'Ivoire,Est,Piqûres/Coupures,25.02,2844.08,Élevé,Autoclave,2024-11-11,130.51,Oui,Conteneur rigide,Non,SafeWaste,Soins Intensifs
+570,Hopital_36,RDC,Ouest,Infectieux,244.96,29358.12,Élevé,Autoclave,2024-08-29,202.91,En attente,Fût,Non,,Maladies Infectieuses
+65,Hopital_4,Bénin,Est,Infectieux,368.1,43261.48,Élevé,Autoclave,2024-06-03,166.12,Oui,Sac jaune,Non,EcoTrans,Maladies Infectieuses
+183,Hopital_25,Cameroun,Littoral,Pharmaceutiques,260.17,36902.73,Moyen,Incinération,2024-12-25,46.97,Non,Conteneur rigide,Non,SafeWaste,Pharmacie
+12,Hopital_24,Bénin,Extrême-Nord,Chimiques,249.63,24362.71,Moyen,Désinfection chimique,2024-06-01,219.58,Non,Conteneur rigide,Non,SafeWaste,Maintenance
+47,Hopital_14,Togo,Extrême-Nord,Organiques,402.69,7693.4,Faible,Enfouissement,2023-12-23,130.51,Partielle,Carton DASRI,Non,CleanMed,Maternité
+530,Hopital_24,Sénégal,Ouest,Radioactifs,16.45,4053.55,Élevé,Incinération,2024-05-30,130.51,Partielle,Sac jaune,Non,SafeWaste,Radiologie
+435,Hopital_15,Côte d'Ivoire,Est,Piqûres/Coupures,155.38,35412.86,Élevé,Incinération,2024-12-18,136.76,En attente,Conteneur rigide,Non,SafeWaste,Urgences
+117,Hopital_28,Bénin,Sud-Ouest,Piqûres/Coupures,379.94,88551.64,Élevé,Incinération,2023-04-27,170.13,Oui,Sac jaune,Non,CleanMed,Chirurgie
+229,Hopital_32,Sénégal,Sud,Infectieux,308.03,71285.24,Élevé,Incinération,2024-05-20,178.09,Partielle,Conteneur rigide,Non,BioLogistics,Urgences
+501,Hopital_48,Côte d'Ivoire,Adamaoua,Chimiques,344.51,37531.47,Moyen,Désinfection chimique,2023-12-10,232.2,En attente,Fût,Non,Hopital Service,Maintenance
+621,Hopital_5,Bénin,Est,Organiques,446.65,8342.95,Faible,Enfouissement,2023-09-01,11.65,Oui,Sac jaune,Non,Hopital Service,Restauration
+531,Hopital_12,Sénégal,Sud-Ouest,Infectieux,194.61,40278.09,Élevé,Incinération,2024-02-18,146.69,Non,Conteneur rigide,Oui,Hopital Service,Laboratoire
+132,Hopital_27,Togo,Sud,Radioactifs,249.63,52002.55,Élevé,Incinération,2024-04-15,241.12,En attente,Sac rouge,Non,EcoTrans,Oncologie
+490,Hopital_28,Cameroun,Ouest,Organiques,223.76,4348.17,Faible,Enfouissement,2023-01-29,130.51,Oui,Sac jaune,Non,EcoTrans,Restauration
+63,Hopital_50,Togo,Sud-Ouest,Infectieux,111.09,24236.68,Élevé,Incinération,2024-02-06,249.04,Non,Fût,Non,Hopital Service,Maladies Infectieuses
+224,Hopital_1,Côte d'Ivoire,Extrême-Nord,Piqûres/Coupures,92.93,19037.86,Élevé,Incinération,2024-01-20,22.49,Oui,Sac jaune,Non,Hopital Service,Chirurgie
+321,Hopital_33,Sénégal,Ouest,Organiques,455.47,9350.44,Faible,Enfouissement,2024-09-01,186.2,En attente,Fût,Non,SafeWaste,Restauration
+250,Hopital_20,Sénégal,Sud-Ouest,Chimiques,94.52,9418.04,Moyen,Désinfection chimique,2023-11-25,105.88,Partielle,Conteneur rigide,Non,EcoTrans,Laboratoire
+335,Hopital_46,Sénégal,Ouest,Organiques,121.71,2503.0,Faible,Enfouissement,2024-11-15,137.97,En attente,Sac jaune,Non,BioLogistics,Restauration
+196,Hopital_37,Sénégal,Centre,Piqûres/Coupures,269.81,61776.17,Élevé,Incinération,2024-03-14,129.79,Partielle,Fût,Non,SafeWaste,Urgences
+563,Hopital_41,Togo,Sud-Ouest,Piqûres/Coupures,483.24,119399.51,Élevé,Incinération,2024-08-22,12.11,Oui,Sac jaune,Non,CleanMed,Urgences
+360,Hopital_29,Gabon,Centre,Organiques,299.89,6078.67,Faible,Enfouissement,2024-06-06,89.35,En attente,Fût,Non,CleanMed,Services Généraux
+601,Hopital_20,Cameroun,Centre,Chimiques,188.29,19165.22,Moyen,Désinfection chimique,2024-04-03,19.8,Oui,Conteneur rigide,Non,CleanMed,Oncologie
+267,Hopital_28,Cameroun,Ouest,Infectieux,249.63,28699.53,Élevé,Autoclave,2024-08-27,179.04,En attente,Sac jaune,Non,BioLogistics,Maladies Infectieuses
+682,Hopital_19,Bénin,Adamaoua,Organiques,203.15,3991.77,Faible,Enfouissement,2024-03-21,223.82,Partielle,Conteneur rigide,Non,,Restauration
+548,Hopital_12,RDC,Littoral,Piqûres/Coupures,193.37,42951.76,Élevé,Incinération,2024-07-12,235.09,Partielle,Carton DASRI,Non,EcoTrans,Soins Intensifs
+460,Hopital_28,Côte d'Ivoire,Centre,Infectieux,297.24,47214.56,Faible,Incinération,2024-11-26,130.51,En attente,Conteneur rigide,Oui,,Maladies Infectieuses
+446,Hopital_45,Togo,Extrême-Nord,Radioactifs,58.13,13475.49,Élevé,Incinération,2024-06-30,149.55,Partielle,Carton DASRI,Oui,Hopital Service,Radiologie
+555,Hopital_17,Côte d'Ivoire,Sud,Pharmaceutiques,416.99,61086.74,Moyen,Incinération,2024-12-02,130.51,Partielle,Carton DASRI,Non,CleanMed,Pharmacie
+314,Hopital_2,Togo,Centre,Organiques,211.85,4215.39,Faible,Enfouissement,2023-01-03,204.81,Non,Sac jaune,Non,BioLogistics,Restauration
+22,Hopital_38,RDC,Extrême-Nord,Pharmaceutiques,153.5,22425.22,Faible,Incinération,2023-11-15,17.12,Partielle,Conteneur rigide,Non,Hopital Service,Pharmacie
+349,Hopital_33,Bénin,Ouest,Chimiques,93.48,8693.08,Moyen,Désinfection chimique,2024-12-22,129.21,Non,Carton DASRI,Non,EcoTrans,Laboratoire
+506,Hopital_30,Côte d'Ivoire,Ouest,Chimiques,445.16,43941.81,Moyen,Désinfection chimique,2024-06-12,54.14,Non,Conteneur rigide,Non,SafeWaste,Laboratoire
+266,Hopital_11,Togo,Sud-Ouest,Piqûres/Coupures,51.22,12690.61,Élevé,Incinération,2024-04-09,142.75,Non,Fût,Non,SafeWaste,Chirurgie
+79,Hopital_48,Côte d'Ivoire,Adamaoua,Radioactifs,181.76,40465.62,Élevé,Incinération,2024-12-03,86.91,Oui,Conteneur rigide,Non,SafeWaste,Radiologie
+366,Hopital_24,Côte d'Ivoire,Est,Organiques,439.61,8945.05,Faible,Enfouissement,2023-02-04,18.85,Oui,Carton DASRI,Non,SafeWaste,Maternité
+13,Hopital_36,Côte d'Ivoire,Est,Piqûres/Coupures,3.61,866.22,Élevé,Incinération,2023-04-08,68.15,Partielle,Sac jaune,Non,Hopital Service,Chirurgie
+296,Hopital_33,Sénégal,Extrême-Nord,Pharmaceutiques,326.93,45408.41,Moyen,Incinération,2023-07-02,170.53,Oui,Fût,Non,BioLogistics,Pharmacie
+471,Hopital_32,Côte d'Ivoire,Adamaoua,Pharmaceutiques,71.93,9988.24,Moyen,Incinération,2023-09-25,222.99,,Conteneur rigide,Non,EcoTrans,Pharmacie
+592,Hopital_49,Cameroun,Est,Piqûres/Coupures,138.61,30927.05,Élevé,Incinération,2024-01-04,184.86,Partielle,Conteneur rigide,Non,SafeWaste,Urgences
+431,Hopital_22,Bénin,Ouest,Piqûres/Coupures,249.63,51086.51,Élevé,Incinération,2024-06-17,156.2,En attente,Sac rouge,Non,Hopital Service,Urgences
+41,Hopital_21,Bénin,Adamaoua,Infectieux,33.36,8059.13,Élevé,Incinération,2023-04-11,92.26,Oui,Carton DASRI,Non,Hopital Service,Maladies Infectieuses
+629,Hopital_39,Bénin,Est,Chimiques,238.94,23784.7,Moyen,Désinfection chimique,2024-04-04,181.24,Oui,Fût,Non,SafeWaste,Laboratoire
+101,Hopital_9,Cameroun,Centre,Infectieux,365.02,40459.53,Élevé,Autoclave,2023-12-18,130.51,Partielle,Carton DASRI,Non,BioLogistics,Urgences
+655,Hopital_50,Gabon,Centre,Piqûres/Coupures,307.19,74740.04,Élevé,Incinération,2023-12-31,128.01,Partielle,Fût,Non,EcoTrans,Chirurgie
+667,Hopital_22,Cameroun,Nord,Infectieux,477.6,98382.59,Élevé,Incinération,2023-01-28,125.27,Partielle,Fût,Non,BioLogistics,Urgences
+424,Hopital_34,Togo,Littoral,Pharmaceutiques,247.28,38300.48,Moyen,Incinération,2023-08-19,35.57,En attente,Sac jaune,Non,SafeWaste,Pharmacie
+307,Hopital_25,RDC,Sud-Ouest,Pharmaceutiques,224.08,32430.45,Moyen,Incinération,2024-04-11,18.52,Partielle,Sac rouge,Non,BioLogistics,Oncologie
+652,Hopital_40,Cameroun,Sud,Pharmaceutiques,329.61,47278.54,Moyen,Incinération,2023-12-03,5.3,En attente,Conteneur rigide,Non,EcoTrans,Oncologie
+88,Hopital_18,Cameroun,Ouest,Infectieux,130.39,15830.77,Élevé,Autoclave,2023-08-23,86.95,Oui,Sac rouge,Oui,,Urgences
+217,Hopital_2,RDC,Extrême-Nord,Infectieux,159.06,35130.36,Élevé,Incinération,2023-01-24,33.92,En attente,Carton DASRI,Non,Hopital Service,Urgences
+358,Hopital_28,Gabon,Littoral,Radioactifs,32.76,7091.31,Élevé,Incinération,2024-07-09,57.35,Partielle,Carton DASRI,Non,Hopital Service,Oncologie
+507,Hopital_37,Sénégal,Nord,Chimiques,173.59,19012.14,Moyen,Désinfection chimique,2023-09-21,138.81,Non,Conteneur rigide,Non,SafeWaste,Laboratoire
+301,Hopital_36,RDC,Littoral,Chimiques,332.83,34935.04,Moyen,Désinfection chimique,2023-08-22,246.54,Partielle,Sac jaune,Oui,SafeWaste,Laboratoire
+509,Hopital_10,RDC,Ouest,Piqûres/Coupures,13.7,3062.64,Élevé,Incinération,2023-06-23,94.8,En attente,Sac jaune,Non,SafeWaste,Chirurgie
+595,Hopital_25,Sénégal,Extrême-Nord,Chimiques,75.25,7462.42,Moyen,Désinfection chimique,2023-03-02,130.51,Partielle,Conteneur rigide,Non,Hopital Service,Laboratoire
+351,Hopital_48,Bénin,Sud,Piqûres/Coupures,120.52,13538.73,Élevé,Autoclave,2024-07-13,141.11,Partielle,Sac rouge,Non,Hopital Service,Soins Intensifs
+659,Hopital_29,Bénin,Ouest,Organiques,249.63,5242.13,Faible,Enfouissement,2023-03-29,20.57,Oui,Fût,Non,SafeWaste,Services Généraux
+187,Hopital_27,Togo,Nord,Organiques,435.42,9100.46,Faible,Enfouissement,2023-05-06,130.51,Partielle,Sac rouge,Non,CleanMed,Maternité
+631,Hopital_42,Cameroun,Adamaoua,Infectieux,361.63,80718.4,Élevé,Incinération,2023-03-23,10.59,Oui,Sac jaune,Non,BioLogistics,Laboratoire
+478,Hopital_39,Sénégal,Extrême-Nord,Chimiques,62.38,6286.07,Moyen,Désinfection chimique,2024-09-16,221.15,Partielle,Fût,Non,SafeWaste,Laboratoire
+146,Hopital_9,Côte d'Ivoire,Est,Radioactifs,304.66,62079.95,Élevé,Incinération,2023-12-13,130.51,Partielle,Sac jaune,Non,Hopital Service,Radiologie
+605,Hopital_13,Cameroun,Sud,Pharmaceutiques,193.88,31616.39,Moyen,Incinération,2023-01-31,91.16,Oui,Fût,Non,EcoTrans,Pharmacie
+142,Hopital_26,Sénégal,Ouest,Piqûres/Coupures,99.85,24641.41,Élevé,Incinération,2024-10-26,94.8,En attente,Sac jaune,Non,SafeWaste,Chirurgie
+599,Hopital_17,Bénin,Adamaoua,Infectieux,431.91,100222.36,Élevé,Incinération,2024-04-06,130.51,En attente,Fût,Oui,SafeWaste,Laboratoire
+585,Hopital_39,Togo,Littoral,Radioactifs,361.35,89309.02,Élevé,Incinération,2023-02-04,62.13,En attente,Conteneur rigide,Non,Hopital Service,Radiologie
+74,Hopital_34,Cameroun,Centre,Piqûres/Coupures,420.06,89976.52,Élevé,Incinération,2023-03-19,5.06,Non,Fût,Non,EcoTrans,Urgences
+80,Hopital_15,Bénin,Nord,Organiques,167.92,3341.27,Faible,Enfouissement,2023-01-30,150.79,Non,Carton DASRI,Non,BioLogistics,Restauration
+42,Hopital_9,Sénégal,Ouest,Chimiques,290.41,28262.85,Moyen,Désinfection chimique,2024-01-04,99.97,En attente,Sac jaune,Non,SafeWaste,Maintenance
+583,Hopital_18,Côte d'Ivoire,Sud,Radioactifs,482.05,102308.95,Élevé,Incinération,2024-06-19,11.96,Partielle,Conteneur rigide,Non,CleanMed,Oncologie
+109,Hopital_8,Cameroun,Sud,Radioactifs,35.41,8648.54,Élevé,Incinération,2024-02-04,146.17,En attente,Fût,Non,CleanMed,Radiologie
+26,Hopital_12,RDC,Extrême-Nord,Chimiques,224.86,24112.58,Moyen,Désinfection chimique,2024-09-16,225.94,Non,Fût,Non,EcoTrans,Oncologie
+688,Hopital_28,Gabon,Centre,Organiques,489.51,9922.17,Faible,Enfouissement,2023-04-17,130.51,Oui,Conteneur rigide,Oui,SafeWaste,Restauration
+192,Hopital_6,Cameroun,Nord,Radioactifs,14.56,3142.48,Élevé,Incinération,2023-01-18,125.62,Partielle,Sac rouge,Non,EcoTrans,Radiologie
+254,Hopital_3,Sénégal,Sud-Ouest,Infectieux,355.41,74398.55,Élevé,Incinération,2023-01-28,221.6,Oui,Conteneur rigide,Non,Hopital Service,Chirurgie
+76,Hopital_36,Sénégal,Ouest,Organiques,286.36,6292.41,Faible,Enfouissement,2023-01-18,152.84,Non,Conteneur rigide,Oui,SafeWaste,Services Généraux
+372,Hopital_33,Sénégal,Littoral,Chimiques,387.17,36264.12,Moyen,Désinfection chimique,2024-09-17,186.33,Oui,Carton DASRI,Non,CleanMed,Laboratoire
+699,Hopital_25,Côte d'Ivoire,Nord,Piqûres/Coupures,341.63,42355.2,Élevé,Autoclave,2024-06-20,163.11,En attente,Conteneur rigide,Non,SafeWaste,Urgences
+239,Hopital_6,Bénin,Sud-Ouest,Organiques,83.81,2431.65,Élevé,Enfouissement,2023-06-25,130.47,Partielle,Conteneur rigide,Non,CleanMed,Restauration
+689,Hopital_20,Gabon,Ouest,Radioactifs,302.14,70895.12,Élevé,Incinération,2023-06-19,220.58,Partielle,Sac jaune,Non,CleanMed,Radiologie
+370,Hopital_31,RDC,Adamaoua,Piqûres/Coupures,159.16,35615.55,Élevé,Incinération,2024-02-12,104.75,Non,Sac rouge,Non,,Chirurgie
+87,Hopital_45,RDC,Nord,Radioactifs,470.4,113875.17,Élevé,Incinération,2024-05-23,148.4,Non,Fût,Non,SafeWaste,Radiologie
+57,Hopital_8,Cameroun,Ouest,Organiques,259.12,5484.24,Faible,Enfouissement,2024-02-20,34.42,Partielle,Fût,Non,BioLogistics,Restauration
+449,Hopital_47,Bénin,Ouest,Infectieux,249.63,60459.51,Élevé,Incinération,2024-09-04,70.13,Oui,Carton DASRI,Non,EcoTrans,Maladies Infectieuses
+90,Hopital_24,Bénin,Sud,Organiques,249.63,5329.27,Faible,Enfouissement,2023-11-30,73.09,Partielle,Sac rouge,Non,EcoTrans,Restauration
+386,Hopital_50,Sénégal,Ouest,Pharmaceutiques,475.31,67863.8,Moyen,Incinération,2023-04-12,148.3,Non,Carton DASRI,Non,Hopital Service,Pharmacie
+134,Hopital_1,Cameroun,Nord,Organiques,468.47,10186.19,Faible,Enfouissement,2024-11-17,200.36,Partielle,Fût,Non,Hopital Service,Restauration
+334,Hopital_22,Côte d'Ivoire,Ouest,Organiques,49.17,1112.82,Faible,Enfouissement,2023-02-17,163.01,Partielle,Sac jaune,Non,,Services Généraux
+201,Hopital_15,Togo,Littoral,Infectieux,249.63,58723.23,Élevé,Incinération,2023-11-26,240.54,Oui,Conteneur rigide,Non,EcoTrans,Urgences
+181,Hopital_11,Sénégal,Centre,Piqûres/Coupures,165.78,21045.89,Élevé,Autoclave,2023-07-13,20.21,Oui,Carton DASRI,Non,EcoTrans,Vaccination
+434,Hopital_6,Cameroun,Littoral,Chimiques,304.34,28825.1,Moyen,Désinfection chimique,2024-04-17,148.15,Partielle,Fût,Non,BioLogistics,Laboratoire
+167,Hopital_32,Côte d'Ivoire,Centre,Chimiques,334.84,33631.85,Moyen,Désinfection chimique,2024-12-29,195.89,En attente,Carton DASRI,Oui,,Laboratoire
+669,Hopital_7,Cameroun,Ouest,Pharmaceutiques,150.48,21180.28,Moyen,Incinération,2023-03-27,185.5,Oui,Carton DASRI,Non,BioLogistics,Oncologie
+38,Hopital_3,Gabon,Sud,Organiques,294.51,6347.6,Faible,Enfouissement,2024-11-03,130.51,En attente,Sac jaune,Oui,CleanMed,Restauration
+547,Hopital_13,Bénin,Ouest,Pharmaceutiques,195.35,30981.17,Moyen,Incinération,2024-10-04,14.6,En attente,Conteneur rigide,Non,Hopital Service,Pharmacie
+223,Hopital_33,Côte d'Ivoire,Sud,Chimiques,249.63,23579.38,Moyen,Désinfection chimique,2024-07-31,126.62,Oui,Fût,Non,Hopital Service,Maintenance
+645,Hopital_10,Cameroun,Ouest,Organiques,8.14,243.57,Faible,Enfouissement,2024-04-03,137.1,Non,Carton DASRI,Non,SafeWaste,Restauration
+24,Hopital_21,Cameroun,Nord,Chimiques,498.17,53840.34,Moyen,Désinfection chimique,2024-05-04,163.16,Partielle,Conteneur rigide,Non,Hopital Service,Laboratoire
+677,Hopital_44,RDC,Centre,Radioactifs,148.35,34956.33,Élevé,Incinération,2024-05-19,213.82,Non,Conteneur rigide,Non,CleanMed,Oncologie
+456,Hopital_30,Cameroun,Ouest,Radioactifs,249.63,60341.51,Élevé,Incinération,2023-07-29,175.14,En attente,Sac jaune,Non,,Radiologie
+401,Hopital_48,Togo,Adamaoua,Chimiques,98.85,9300.74,Moyen,Désinfection chimique,2024-05-07,214.72,Oui,Conteneur rigide,Non,CleanMed,Oncologie
+61,Hopital_17,Togo,Centre,Organiques,217.58,4540.55,Faible,Enfouissement,2024-05-08,222.87,Oui,Sac jaune,Non,CleanMed,Restauration
+496,Hopital_5,Sénégal,Centre,Piqûres/Coupures,160.11,35933.42,Élevé,Incinération,2024-10-16,60.81,Oui,Sac jaune,Non,BioLogistics,Vaccination
+400,Hopital_43,Cameroun,Nord,Infectieux,249.63,36599.18,Faible,Incinération,2024-08-21,239.24,En attente,Carton DASRI,Non,EcoTrans,Laboratoire
+31,Hopital_27,Gabon,Littoral,Piqûres/Coupures,206.9,46385.26,Élevé,Incinération,2024-09-13,26.21,Non,Carton DASRI,Non,SafeWaste,Urgences
+551,Hopital_2,Bénin,Ouest,Chimiques,77.92,7673.85,Moyen,Désinfection chimique,2024-12-04,190.4,En attente,Conteneur rigide,Non,CleanMed,Oncologie
+289,Hopital_35,RDC,Centre,Pharmaceutiques,321.8,50513.98,Moyen,Incinération,2023-05-13,187.52,Non,Sac jaune,Non,EcoTrans,Pharmacie
+27,Hopital_22,RDC,Est,Piqûres/Coupures,361.31,84760.54,Élevé,Incinération,2023-04-14,130.51,Oui,Sac rouge,Non,,Chirurgie
+610,Hopital_41,Gabon,Sud-Ouest,Infectieux,490.39,114597.91,Élevé,Incinération,2024-09-17,201.25,,Sac jaune,Non,CleanMed,Laboratoire
+525,Hopital_49,RDC,Sud,Pharmaceutiques,14.74,2123.4,Moyen,Incinération,2024-03-29,170.96,En attente,Fût,Non,EcoTrans,Pharmacie
+550,Hopital_46,Togo,Extrême-Nord,Chimiques,271.16,27356.44,Moyen,Désinfection chimique,2024-02-07,204.86,En attente,Conteneur rigide,Non,EcoTrans,Laboratoire
+653,Hopital_42,RDC,Est,Infectieux,383.29,62132.36,Faible,Incinération,2024-10-06,184.28,En attente,Sac jaune,Non,BioLogistics,Maladies Infectieuses
+18,Hopital_2,Côte d'Ivoire,Nord,Organiques,479.08,10403.23,Faible,Enfouissement,2024-04-03,246.93,Non,Sac rouge,Non,,Restauration
+11,Hopital_11,Gabon,Extrême-Nord,Infectieux,392.11,85827.13,Élevé,Incinération,2023-06-14,249.89,Partielle,Sac jaune,Non,SafeWaste,Chirurgie
+594,Hopital_23,RDC,Nord,Organiques,249.63,5220.38,Faible,Enfouissement,2023-06-23,11.62,Non,Sac jaune,Non,EcoTrans,Restauration
+546,Hopital_29,Bénin,Littoral,Chimiques,480.61,49014.56,Moyen,Désinfection chimique,2023-12-15,124.98,Non,Fût,Non,EcoTrans,Laboratoire
+311,Hopital_18,Gabon,Est,Infectieux,190.82,39710.5,Élevé,Incinération,2023-11-28,146.72,Non,Conteneur rigide,Non,BioLogistics,Urgences
+135,Hopital_35,Cameroun,Est,Chimiques,27.08,2564.71,Moyen,Désinfection chimique,2023-12-29,235.73,Partielle,Sac jaune,Non,EcoTrans,Laboratoire
+540,Hopital_1,RDC,Sud,Infectieux,157.67,37946.89,Élevé,Incinération,2023-12-08,148.87,Non,Fût,Non,BioLogistics,Maladies Infectieuses
+320,Hopital_4,Togo,Est,Radioactifs,146.82,30018.74,Élevé,Incinération,2024-03-15,130.51,Partielle,Conteneur rigide,Non,,Médecine Nucléaire
+448,Hopital_30,Gabon,Sud,Chimiques,228.66,23372.15,Moyen,Désinfection chimique,2024-02-21,185.14,Partielle,Carton DASRI,Non,CleanMed,Maintenance
+649,Hopital_7,Côte d'Ivoire,Nord,Chimiques,72.28,7013.35,Moyen,Désinfection chimique,2024-10-11,45.78,Partielle,Sac jaune,Non,CleanMed,Laboratoire
+305,Hopital_35,Togo,Sud,Pharmaceutiques,280.66,40199.91,Moyen,Incinération,2023-01-31,203.63,En attente,Sac rouge,Non,SafeWaste,Soins Palliatifs
+668,Hopital_17,RDC,Centre,Organiques,261.77,5419.48,Faible,Enfouissement,2024-07-19,204.83,Oui,Sac rouge,Non,SafeWaste,Restauration
+342,Hopital_27,Côte d'Ivoire,Ouest,Chimiques,371.85,38566.31,Moyen,Désinfection chimique,2023-04-23,130.51,Partielle,Sac rouge,Non,CleanMed,Laboratoire
+573,Hopital_36,Côte d'Ivoire,Est,Piqûres/Coupures,440.28,56173.72,Élevé,Autoclave,2023-05-25,130.51,Oui,Conteneur rigide,Non,SafeWaste,Chirurgie
+653,Hopital_42,RDC,Est,Infectieux,383.29,44917.94,Élevé,Autoclave,2024-10-06,184.28,En attente,Sac jaune,Non,BioLogistics,Laboratoire
+256,Hopital_20,RDC,Extrême-Nord,Pharmaceutiques,236.11,38213.37,Moyen,Incinération,2024-10-17,241.85,Partielle,Fût,Non,,Pharmacie
+336,Hopital_30,Cameroun,Ouest,Chimiques,7.19,706.39,Moyen,Désinfection chimique,2024-04-19,79.32,Non,Carton DASRI,Oui,EcoTrans,Laboratoire
+291,Hopital_48,Gabon,Extrême-Nord,Chimiques,256.81,27538.2,Moyen,Désinfection chimique,2024-12-21,181.9,En attente,Fût,Non,EcoTrans,Maintenance
+121,Hopital_12,Sénégal,Littoral,Pharmaceutiques,244.3,39002.28,Moyen,Incinération,2023-10-17,130.51,Oui,Sac rouge,Non,EcoTrans,Soins Palliatifs
+325,Hopital_20,Sénégal,Est,Organiques,481.44,8954.87,Faible,Enfouissement,2024-12-30,61.51,Non,Conteneur rigide,Oui,Hopital Service,Restauration
+532,Hopital_50,Bénin,Littoral,Piqûres/Coupures,80.85,19424.27,Élevé,Incinération,2024-04-27,70.15,Oui,Sac jaune,Non,CleanMed,Chirurgie
+597,Hopital_41,Gabon,Centre,Pharmaceutiques,490.51,79419.91,Moyen,Incinération,2023-01-15,132.89,En attente,Fût,Non,SafeWaste,Pharmacie
+645,Hopital_10,Cameroun,Ouest,Organiques,8.14,251.1,Faible,Enfouissement,2024-04-03,137.1,Non,Carton DASRI,Non,SafeWaste,Restauration
+303,Hopital_40,RDC,Est,Pharmaceutiques,453.69,68439.79,Moyen,Incinération,2024-02-02,12.37,Oui,Carton DASRI,Non,SafeWaste,Pharmacie
+151,Hopital_13,Togo,Littoral,Organiques,126.23,2515.08,Faible,Enfouissement,2024-08-21,149.35,En attente,Conteneur rigide,Non,EcoTrans,Restauration
+62,Hopital_36,Bénin,Ouest,Infectieux,45.21,10700.23,Élevé,Incinération,2023-07-04,159.01,Non,Sac jaune,Non,Hopital Service,Chirurgie
+656,Hopital_27,Bénin,Nord,Piqûres/Coupures,45.21,10258.55,Élevé,Incinération,2024-12-28,5.79,Oui,Sac jaune,Non,CleanMed,Chirurgie
+286,Hopital_32,Côte d'Ivoire,Ouest,Chimiques,114.36,11705.03,Moyen,Désinfection chimique,2023-09-15,121.52,Partielle,Fût,Non,CleanMed,Laboratoire
+32,Hopital_42,Côte d'Ivoire,Ouest,Organiques,348.11,6412.13,Faible,Enfouissement,2023-02-01,100.53,Oui,Sac jaune,Non,BioLogistics,Restauration
+170,Hopital_28,Togo,Adamaoua,Piqûres/Coupures,325.84,71583.78,Élevé,Incinération,2024-07-19,150.39,Non,Sac rouge,Non,SafeWaste,Urgences
+464,Hopital_23,Togo,Littoral,Radioactifs,306.67,42549.16,Moyen,Incinération,2023-07-10,131.74,Partielle,Sac jaune,Non,SafeWaste,Radiologie
+483,Hopital_12,Côte d'Ivoire,Est,Radioactifs,422.96,101159.84,Élevé,Incinération,2024-05-11,125.54,,Conteneur rigide,Non,BioLogistics,Radiologie
+288,Hopital_41,Côte d'Ivoire,Centre,Organiques,140.36,2917.29,Faible,Enfouissement,2024-10-31,230.68,Oui,Fût,Non,,Restauration
+350,Hopital_5,Gabon,Centre,Infectieux,40.41,8452.48,Élevé,Incinération,2024-01-11,138.07,En attente,Fût,Non,SafeWaste,Laboratoire
+462,Hopital_37,Bénin,Nord,Organiques,318.41,6480.92,Faible,Enfouissement,2024-09-14,151.76,Non,Fût,Non,EcoTrans,Services Généraux
+144,Hopital_39,Gabon,Extrême-Nord,Infectieux,249.63,27390.44,Élevé,Autoclave,2024-06-30,219.66,Non,Fût,Non,SafeWaste,Chirurgie
+205,Hopital_41,Bénin,Ouest,Piqûres/Coupures,262.14,58695.25,Élevé,Incinération,2024-10-22,161.42,Partielle,Sac jaune,Non,SafeWaste,Urgences
+242,Hopital_48,Bénin,Extrême-Nord,Infectieux,249.63,58122.14,Élevé,Incinération,2024-09-15,159.2,En attente,Conteneur rigide,Non,BioLogistics,Urgences
+485,Hopital_16,Gabon,Ouest,Pharmaceutiques,215.54,29219.18,Faible,Incinération,2024-07-09,127.64,Oui,Conteneur rigide,Non,EcoTrans,Pharmacie
+658,Hopital_5,Cameroun,Adamaoua,Piqûres/Coupures,39.75,5217.75,Élevé,Autoclave,2023-05-23,243.78,Non,Carton DASRI,Non,CleanMed,Chirurgie
+461,Hopital_26,Cameroun,Est,Pharmaceutiques,6.06,1037.33,Moyen,Incinération,2023-10-14,130.51,Oui,Fût,Non,CleanMed,Pharmacie
+423,Hopital_28,Sénégal,Nord,Chimiques,437.24,47739.37,Moyen,Désinfection chimique,2024-09-15,13.51,En attente,Fût,Non,BioLogistics,Laboratoire
+234,Hopital_17,Sénégal,Est,Radioactifs,483.6,109803.98,Élevé,Incinération,2023-04-24,189.43,Partielle,Sac rouge,Non,,Médecine Nucléaire
+69,Hopital_4,Gabon,Centre,Piqûres/Coupures,211.2,49136.83,Élevé,Incinération,2023-03-09,39.52,En attente,Sac rouge,Non,EcoTrans,Chirurgie
+407,Hopital_50,Gabon,Extrême-Nord,Organiques,4.82,157.49,Moyen,Enfouissement,2024-03-08,115.4,,Conteneur rigide,Non,SafeWaste,Maternité
+660,Hopital_37,RDC,Extrême-Nord,Organiques,204.15,4487.74,Faible,Enfouissement,2024-07-19,32.62,Partielle,Sac rouge,Non,SafeWaste,Restauration
+39,Hopital_37,Togo,Est,Chimiques,241.01,23910.12,Moyen,Désinfection chimique,2023-05-13,130.51,Oui,Carton DASRI,Non,Hopital Service,Laboratoire
+511,Hopital_36,Bénin,Littoral,Chimiques,318.81,34513.28,Moyen,Désinfection chimique,2024-05-27,90.88,Oui,Conteneur rigide,Non,CleanMed,Laboratoire
+619,Hopital_47,Côte d'Ivoire,Sud-Ouest,Radioactifs,220.14,52163.03,Élevé,Incinération,2023-07-19,196.38,Partielle,Sac jaune,Non,BioLogistics,Radiologie
+219,Hopital_28,Gabon,Extrême-Nord,Radioactifs,453.17,94723.25,Élevé,Incinération,2024-05-06,238.94,,Sac rouge,Non,EcoTrans,Oncologie
+453,Hopital_13,Togo,Adamaoua,Chimiques,36.43,3606.78,Moyen,Désinfection chimique,2023-06-28,167.63,Non,Fût,Non,EcoTrans,Maintenance
+694,Hopital_1,Gabon,Littoral,Piqûres/Coupures,252.04,30898.48,Élevé,Autoclave,2023-01-21,197.58,Partielle,Carton DASRI,Non,BioLogistics,Urgences
+344,Hopital_21,Bénin,Ouest,Organiques,451.54,9182.67,Faible,Enfouissement,2024-10-25,58.33,Non,Fût,Non,CleanMed,Services Généraux
+416,Hopital_8,Côte d'Ivoire,Sud,Infectieux,465.95,113664.78,Élevé,Incinération,2023-07-24,29.06,Oui,Sac jaune,Non,SafeWaste,Maladies Infectieuses
+409,Hopital_24,Bénin,Ouest,Organiques,19.32,463.38,Faible,Enfouissement,2023-10-14,171.91,En attente,Fût,Non,EcoTrans,Maternité
+59,Hopital_35,Cameroun,Sud,Chimiques,74.58,8219.13,Moyen,Désinfection chimique,2024-01-08,46.09,Oui,Sac jaune,Non,Hopital Service,Maintenance
+121,Hopital_12,Sénégal,Littoral,Pharmaceutiques,244.3,33297.74,Moyen,Incinération,2023-10-17,130.51,Oui,Sac rouge,Non,EcoTrans,Soins Palliatifs
+568,Hopital_11,Gabon,Littoral,Piqûres/Coupures,222.58,50626.67,Élevé,Incinération,2024-04-13,59.11,Oui,Fût,Non,,Vaccination
+402,Hopital_39,Cameroun,Sud,Infectieux,305.78,69299.81,Élevé,Incinération,2023-05-08,178.32,Non,Fût,Non,BioLogistics,Maladies Infectieuses
+281,Hopital_1,Sénégal,Centre,Piqûres/Coupures,163.23,39629.12,Élevé,Incinération,2024-05-24,125.02,Oui,Conteneur rigide,Oui,EcoTrans,Urgences
+545,Hopital_44,Bénin,Est,Infectieux,144.91,15972.44,Élevé,Autoclave,2023-11-28,215.13,Partielle,Fût,Non,CleanMed,Urgences
+98,Hopital_1,Bénin,Sud-Ouest,Pharmaceutiques,364.24,54747.87,Moyen,Incinération,2023-02-15,238.11,Oui,Sac rouge,Non,BioLogistics,Pharmacie
+676,Hopital_19,Togo,Centre,Pharmaceutiques,202.03,29060.79,Moyen,Incinération,2024-04-20,102.21,Non,Carton DASRI,Non,EcoTrans,Oncologie
+425,Hopital_2,Sénégal,Sud-Ouest,Infectieux,351.43,40292.12,Élevé,Autoclave,2024-06-02,130.51,En attente,Conteneur rigide,Non,SafeWaste,Chirurgie
+287,Hopital_9,RDC,Sud-Ouest,Radioactifs,418.68,87544.28,Élevé,Incinération,2024-01-25,209.28,Non,Conteneur rigide,Non,CleanMed,Radiologie
+445,Hopital_6,Togo,Extrême-Nord,Piqûres/Coupures,343.61,74558.32,Élevé,Incinération,2023-03-05,80.8,,Carton DASRI,Non,Hopital Service,Vaccination
+40,Hopital_7,Togo,Adamaoua,Chimiques,321.52,33267.98,Moyen,Désinfection chimique,2024-12-03,239.8,Non,Sac rouge,Non,EcoTrans,Oncologie
+447,Hopital_32,Sénégal,Ouest,Chimiques,192.54,17946.0,Moyen,Désinfection chimique,2023-07-11,127.34,Partielle,Sac rouge,Non,SafeWaste,Maintenance
+111,Hopital_35,RDC,Centre,Organiques,249.63,5134.67,Faible,Enfouissement,2023-10-25,48.37,Oui,Carton DASRI,Non,EcoTrans,Services Généraux
+684,Hopital_3,RDC,Ouest,Piqûres/Coupures,161.43,33314.72,Élevé,Incinération,2023-08-08,110.11,Non,Fût,Non,SafeWaste,Vaccination
+477,Hopital_16,Bénin,Ouest,Organiques,22.83,581.41,Faible,Enfouissement,2024-08-04,169.73,Partielle,Sac rouge,Non,EcoTrans,Restauration
+71,Hopital_18,Côte d'Ivoire,Littoral,Radioactifs,393.04,87001.58,Élevé,Incinération,2023-10-17,219.92,Non,Sac rouge,Non,BioLogistics,Radiologie
+260,Hopital_33,Gabon,Ouest,Chimiques,247.61,26364.62,Moyen,Désinfection chimique,2023-06-05,17.56,Partielle,Fût,Non,BioLogistics,Oncologie
+192,Hopital_6,Cameroun,Nord,Radioactifs,14.56,3101.08,Élevé,Incinération,2023-01-18,125.62,Partielle,Sac rouge,Non,EcoTrans,Radiologie
+3,Hopital_15,Gabon,Littoral,Chimiques,201.35,18535.97,Moyen,Désinfection chimique,2024-06-20,237.79,En attente,Sac jaune,Non,EcoTrans,Oncologie
+697,Hopital_28,Cameroun,Centre,Infectieux,312.77,66305.22,Élevé,Incinération,2023-07-26,42.38,En attente,Sac jaune,Non,CleanMed,Urgences
+73,Hopital_44,RDC,Sud,Chimiques,249.63,23453.53,Moyen,Désinfection chimique,2024-07-23,90.61,Non,Conteneur rigide,Non,EcoTrans,Maintenance
+590,Hopital_37,RDC,Sud-Ouest,Chimiques,63.29,6894.36,Moyen,Désinfection chimique,2023-07-08,174.96,En attente,Carton DASRI,Non,SafeWaste,Maintenance
+271,Hopital_31,Togo,Nord,Infectieux,374.66,92245.22,Élevé,Incinération,2024-05-25,159.54,En attente,Sac rouge,Non,CleanMed,Maladies Infectieuses
+575,Hopital_37,Sénégal,Ouest,Radioactifs,285.12,68727.55,Élevé,Incinération,2023-01-03,86.97,Non,Carton DASRI,Non,EcoTrans,Oncologie
+513,Hopital_31,Togo,Adamaoua,Piqûres/Coupures,36.78,8151.5,Élevé,Incinération,2024-12-30,27.96,En attente,Sac rouge,Non,EcoTrans,Chirurgie
+143,Hopital_14,Gabon,Nord,Pharmaceutiques,283.1,39108.74,Moyen,Incinération,2023-01-05,92.9,Partielle,Conteneur rigide,Non,CleanMed,Pharmacie
+299,Hopital_49,Côte d'Ivoire,Adamaoua,Infectieux,383.27,49966.93,Élevé,Autoclave,2023-08-19,130.51,Oui,Sac rouge,Non,EcoTrans,Urgences
+518,Hopital_5,Bénin,Littoral,Pharmaceutiques,182.93,28551.1,Moyen,Incinération,2024-05-22,130.51,Partielle,Sac rouge,Non,CleanMed,Oncologie
+333,Hopital_22,Togo,Adamaoua,Pharmaceutiques,270.81,40971.9,Moyen,Incinération,2024-12-04,81.98,En attente,Sac jaune,Non,BioLogistics,Pharmacie
+118,Hopital_7,Bénin,Littoral,Chimiques,249.63,27396.25,Moyen,Désinfection chimique,2023-05-13,144.62,Oui,Carton DASRI,Non,Hopital Service,Maintenance
+381,Hopital_31,Gabon,Ouest,Chimiques,256.67,26439.73,Moyen,Désinfection chimique,2023-02-11,98.86,Oui,Conteneur rigide,Non,BioLogistics,Oncologie
+330,Hopital_33,Sénégal,Est,Infectieux,249.63,29738.81,Élevé,Autoclave,2024-03-19,107.0,Oui,Carton DASRI,Non,BioLogistics,Urgences
+297,Hopital_24,Sénégal,Ouest,Chimiques,469.21,50295.47,Moyen,Désinfection chimique,2023-08-03,194.59,En attente,Carton DASRI,Non,BioLogistics,Maintenance
+391,Hopital_2,Bénin,Centre,Chimiques,36.4,3808.26,Moyen,Désinfection chimique,2024-02-27,171.84,Oui,Fût,Non,,Laboratoire
+572,Hopital_21,Gabon,Sud-Ouest,Infectieux,496.93,64990.08,Élevé,Autoclave,2023-07-16,110.48,,Conteneur rigide,Non,Hopital Service,Laboratoire
+125,Hopital_23,Gabon,Centre,Infectieux,70.48,8599.77,Élevé,Autoclave,2024-08-27,27.79,Oui,Carton DASRI,Non,CleanMed,Urgences
+44,Hopital_18,Togo,Centre,Pharmaceutiques,280.77,45965.83,Moyen,Incinération,2023-10-10,224.29,Oui,Conteneur rigide,Non,EcoTrans,Oncologie
+398,Hopital_33,Côte d'Ivoire,Nord,Chimiques,485.79,48129.29,Moyen,Désinfection chimique,2024-10-23,18.53,Partielle,Fût,Non,CleanMed,Laboratoire
+17,Hopital_22,Côte d'Ivoire,Sud,Pharmaceutiques,102.04,15188.53,Moyen,Incinération,2024-03-01,140.54,Non,Carton DASRI,Non,SafeWaste,Pharmacie
+646,Hopital_44,Côte d'Ivoire,Sud,Infectieux,369.2,83312.94,Élevé,Incinération,2024-02-09,128.71,Partielle,Conteneur rigide,Non,EcoTrans,Maladies Infectieuses
+695,Hopital_3,Côte d'Ivoire,Centre,Chimiques,225.23,24077.19,Moyen,Désinfection chimique,2023-02-25,61.93,En attente,Conteneur rigide,Non,BioLogistics,Laboratoire
+210,Hopital_2,Côte d'Ivoire,Extrême-Nord,Piqûres/Coupures,249.63,29201.89,Élevé,Autoclave,2023-07-03,116.12,En attente,Conteneur rigide,Non,Hopital Service,Chirurgie
+202,Hopital_32,Bénin,Adamaoua,Chimiques,388.03,41517.39,Moyen,Désinfection chimique,2024-08-16,17.53,,Fût,Non,EcoTrans,Laboratoire
+8,Hopital_19,Bénin,Ouest,Radioactifs,308.38,75423.81,Élevé,Incinération,2023-05-16,237.68,Non,Fût,Oui,BioLogistics,Radiologie
+51,Hopital_2,Bénin,Extrême-Nord,Radioactifs,39.45,9821.07,Élevé,Incinération,2023-11-10,135.69,Partielle,Fût,Non,CleanMed,Oncologie
+173,Hopital_45,Sénégal,Ouest,Infectieux,256.74,56660.83,Élevé,Incinération,2023-10-26,157.87,Non,Sac jaune,Non,EcoTrans,Chirurgie
+369,Hopital_46,Togo,Sud,Pharmaceutiques,215.78,31784.29,Moyen,Incinération,2024-06-01,218.8,Non,Carton DASRI,Non,EcoTrans,Pharmacie
+635,Hopital_5,Cameroun,Sud,Chimiques,180.0,17129.67,Moyen,Désinfection chimique,2023-05-10,229.47,Non,Fût,Non,SafeWaste,Oncologie
+529,Hopital_20,Gabon,Nord,Chimiques,20.46,1980.79,Moyen,Désinfection chimique,2024-03-25,169.29,Non,Conteneur rigide,Non,SafeWaste,Laboratoire
+15,Hopital_24,Bénin,Sud-Ouest,Radioactifs,18.62,3938.93,Élevé,Incinération,2024-06-15,89.49,Non,Fût,Non,CleanMed,Médecine Nucléaire
+458,Hopital_17,Togo,Est,Radioactifs,339.66,76295.52,Élevé,Incinération,2023-10-27,53.48,Oui,Conteneur rigide,Non,EcoTrans,Oncologie
+422,Hopital_15,RDC,Littoral,Piqûres/Coupures,249.63,28016.07,Élevé,Autoclave,2024-12-16,181.61,En attente,Sac rouge,Oui,,Chirurgie
+365,Hopital_37,Côte d'Ivoire,Sud-Ouest,Radioactifs,414.81,99880.82,Élevé,Incinération,2024-12-29,151.55,Oui,Sac jaune,Non,Hopital Service,Oncologie
+648,Hopital_38,Togo,Littoral,Radioactifs,370.5,91681.1,Élevé,Incinération,2023-12-26,121.26,Partielle,Fût,Non,EcoTrans,Oncologie
+472,Hopital_48,Gabon,Ouest,Pharmaceutiques,6.84,1148.85,Moyen,Incinération,2024-10-14,242.61,Non,Carton DASRI,Non,EcoTrans,Pharmacie
+283,Hopital_12,Sénégal,Nord,Radioactifs,35.75,7632.46,Élevé,Incinération,2023-05-24,9.34,Partielle,Sac rouge,Non,BioLogistics,Radiologie
+465,Hopital_9,Gabon,Sud,Pharmaceutiques,436.98,71230.69,Moyen,Incinération,2023-07-08,130.51,Oui,Sac rouge,Non,Hopital Service,Pharmacie
+679,Hopital_27,Cameroun,Nord,Radioactifs,141.22,34641.26,Élevé,Incinération,2023-07-13,147.28,Oui,Fût,Non,,Radiologie
+559,Hopital_26,Sénégal,Ouest,Organiques,249.63,7086.12,Élevé,Enfouissement,2023-05-18,232.92,Non,Conteneur rigide,Non,BioLogistics,Restauration
+444,Hopital_4,Gabon,Ouest,Radioactifs,302.29,73556.63,Élevé,Incinération,2023-03-10,130.51,Non,Conteneur rigide,Non,EcoTrans,Médecine Nucléaire
+492,Hopital_47,Cameroun,Ouest,Organiques,411.39,8289.62,Faible,Enfouissement,2023-02-10,103.91,Oui,Fût,Non,Hopital Service,Services Généraux
+136,Hopital_37,Sénégal,Centre,Pharmaceutiques,209.98,29215.4,Moyen,Incinération,2023-04-11,34.55,Partielle,Sac rouge,Non,EcoTrans,Pharmacie
+451,Hopital_40,Cameroun,Est,Organiques,210.05,3966.54,Faible,Enfouissement,2023-02-01,211.31,Non,Conteneur rigide,Non,Hopital Service,Maternité
+278,Hopital_48,Togo,Centre,Pharmaceutiques,317.44,50893.84,Moyen,Incinération,2023-02-18,127.6,,Sac jaune,Non,Hopital Service,Oncologie
+665,Hopital_45,Sénégal,Sud-Ouest,Organiques,249.63,4579.11,Faible,Enfouissement,2024-01-02,9.89,En attente,Fût,Non,EcoTrans,Restauration
+273,Hopital_42,RDC,Est,Organiques,310.84,6221.89,Faible,Enfouissement,2024-02-09,139.79,Non,Fût,Non,EcoTrans,Services Généraux
+405,Hopital_26,Cameroun,Littoral,Infectieux,258.77,59674.81,Élevé,Incinération,2023-09-09,227.78,Partielle,Conteneur rigide,Non,,Chirurgie
+94,Hopital_41,Gabon,Littoral,Pharmaceutiques,229.64,35501.01,Moyen,Incinération,2023-01-18,108.51,En attente,Conteneur rigide,Non,BioLogistics,Pharmacie
+607,Hopital_49,Bénin,Est,Pharmaceutiques,249.63,39792.02,Moyen,Incinération,2023-10-28,105.14,Partielle,Carton DASRI,Non,BioLogistics,Pharmacie
+411,Hopital_7,Côte d'Ivoire,Centre,Organiques,170.09,3645.0,Faible,Enfouissement,2024-02-14,72.29,Partielle,Fût,Oui,Hopital Service,Restauration
+378,Hopital_18,Gabon,Ouest,Piqûres/Coupures,296.26,71205.33,Élevé,Incinération,2024-07-11,127.47,,Conteneur rigide,Non,BioLogistics,Chirurgie
+584,Hopital_49,Togo,Est,Pharmaceutiques,454.82,62902.33,Moyen,Incinération,2023-09-18,226.21,Non,Conteneur rigide,Non,SafeWaste,Pharmacie
+493,Hopital_49,Cameroun,Littoral,Chimiques,428.92,40299.54,Moyen,Désinfection chimique,2024-09-12,184.02,Non,Sac jaune,Non,EcoTrans,Maintenance
+50,Hopital_26,Togo,Sud-Ouest,Infectieux,249.63,53821.86,Élevé,Incinération,2024-05-14,102.41,En attente,Sac jaune,Non,Hopital Service,Laboratoire
+166,Hopital_13,Côte d'Ivoire,Sud,Organiques,425.14,8390.04,Faible,Enfouissement,2024-07-07,26.47,Partielle,Sac jaune,Non,,Maternité
+600,Hopital_49,Gabon,Ouest,Infectieux,294.78,36662.55,Élevé,Autoclave,2023-04-06,15.06,En attente,Conteneur rigide,Non,EcoTrans,Maladies Infectieuses
+558,Hopital_29,Togo,Ouest,Radioactifs,130.41,29935.43,Élevé,Incinération,2023-12-02,206.53,Partielle,Sac jaune,Non,EcoTrans,Radiologie
+673,Hopital_36,Togo,Littoral,Chimiques,353.84,37647.24,Moyen,Désinfection chimique,2023-08-31,122.86,Oui,Sac rouge,Oui,BioLogistics,Oncologie
+638,Hopital_29,Gabon,Centre,Organiques,106.14,1992.09,Faible,Enfouissement,2024-04-10,130.51,Oui,Carton DASRI,Non,BioLogistics,Maternité
+122,Hopital_34,Côte d'Ivoire,Adamaoua,Piqûres/Coupures,17.77,2229.28,Élevé,Autoclave,2024-08-20,217.06,Non,Sac jaune,Non,EcoTrans,Urgences
+49,Hopital_9,Togo,Extrême-Nord,Infectieux,412.7,84986.18,Élevé,Incinération,2024-06-23,112.71,Non,Sac rouge,Non,CleanMed,Chirurgie
+374,Hopital_32,Togo,Est,Infectieux,446.37,56406.11,Élevé,Autoclave,2024-03-22,161.02,En attente,Carton DASRI,Non,CleanMed,Maladies Infectieuses
+502,Hopital_21,Gabon,Centre,Piqûres/Coupures,187.9,22285.03,Élevé,Autoclave,2023-11-21,101.69,Partielle,Conteneur rigide,Non,CleanMed,Urgences
+484,Hopital_26,Bénin,Ouest,Radioactifs,346.55,77735.72,Élevé,Incinération,2023-05-26,111.88,,Sac rouge,Non,EcoTrans,Oncologie
+515,Hopital_19,RDC,Nord,Infectieux,156.3,35421.82,Élevé,Incinération,2023-05-31,78.7,En attente,Fût,Non,CleanMed,Maladies Infectieuses
+614,Hopital_7,Cameroun,Sud,Chimiques,287.19,27894.64,Moyen,Désinfection chimique,2023-05-23,86.0,,Sac rouge,Non,CleanMed,Oncologie
+598,Hopital_30,Côte d'Ivoire,Sud-Ouest,Infectieux,242.22,26818.74,Élevé,Autoclave,2023-05-17,199.04,Partielle,Fût,Non,EcoTrans,Maladies Infectieuses
+486,Hopital_37,Cameroun,Extrême-Nord,Organiques,336.81,6573.57,Faible,Enfouissement,2024-07-10,135.95,Partielle,Carton DASRI,Non,EcoTrans,Services Généraux
+615,Hopital_28,Cameroun,Sud,Chimiques,478.07,48286.44,Moyen,Désinfection chimique,2023-11-11,71.96,Non,Sac rouge,Non,BioLogistics,Laboratoire
+64,Hopital_40,Bénin,Sud,Infectieux,299.51,39254.54,Élevé,Autoclave,2023-05-22,242.21,Non,Carton DASRI,Non,SafeWaste,Maladies Infectieuses
+522,Hopital_24,Bénin,Adamaoua,Piqûres/Coupures,344.45,84262.4,Élevé,Incinération,2023-12-27,66.9,Partielle,Sac rouge,Non,,Chirurgie
+479,Hopital_5,Cameroun,Est,Piqûres/Coupures,279.76,68974.29,Élevé,Incinération,2023-05-10,147.86,Non,Carton DASRI,Non,BioLogistics,Soins Intensifs
+200,Hopital_24,Togo,Littoral,Chimiques,411.23,41131.38,Moyen,Désinfection chimique,2024-09-03,130.51,Oui,Sac jaune,Non,SafeWaste,Laboratoire
+428,Hopital_22,Togo,Sud,Pharmaceutiques,138.09,22619.24,Moyen,Incinération,2023-03-19,75.61,Partielle,Conteneur rigide,Oui,CleanMed,Pharmacie
+616,Hopital_14,RDC,Ouest,Piqûres/Coupures,101.04,21519.54,Élevé,Incinération,2023-01-14,71.7,Non,Sac jaune,Oui,BioLogistics,Soins Intensifs
+113,Hopital_5,Gabon,Littoral,Chimiques,249.63,26415.68,Moyen,Désinfection chimique,2023-09-16,28.08,Non,Carton DASRI,Non,SafeWaste,Laboratoire
+622,Hopital_35,RDC,Sud-Ouest,Piqûres/Coupures,32.17,7556.45,Élevé,Incinération,2023-06-05,29.7,,Sac rouge,Non,SafeWaste,Urgences
+83,Hopital_23,Cameroun,Extrême-Nord,Piqûres/Coupures,416.02,59390.49,Moyen,Incinération,2023-11-05,34.86,Non,Sac rouge,Non,,Chirurgie
+356,Hopital_17,Gabon,Sud-Ouest,Infectieux,427.99,98685.27,Élevé,Incinération,2024-11-24,154.67,Partielle,Carton DASRI,Non,,Maladies Infectieuses
+620,Hopital_16,RDC,Est,Chimiques,423.64,45869.4,Moyen,Désinfection chimique,2023-09-16,7.37,En attente,Sac rouge,Non,EcoTrans,Laboratoire
+474,Hopital_40,Gabon,Centre,Pharmaceutiques,148.23,22414.03,Moyen,Incinération,2023-06-26,134.14,,Conteneur rigide,Non,SafeWaste,Soins Palliatifs
+145,Hopital_27,Côte d'Ivoire,Adamaoua,Pharmaceutiques,486.03,79428.17,Moyen,Incinération,2024-10-07,136.87,Oui,Sac jaune,Non,SafeWaste,Soins Palliatifs
+123,Hopital_33,Cameroun,Sud,Piqûres/Coupures,32.26,7308.21,Élevé,Incinération,2024-12-02,50.51,En attente,Sac jaune,Non,EcoTrans,Urgences
+609,Hopital_12,Sénégal,Ouest,Infectieux,432.92,53473.11,Élevé,Autoclave,2023-08-20,144.99,Oui,Carton DASRI,Oui,BioLogistics,Urgences
+382,Hopital_3,Gabon,Littoral,Organiques,53.01,1133.42,Faible,Enfouissement,2024-05-27,24.82,Oui,Sac jaune,Non,BioLogistics,Maternité
+302,Hopital_38,Cameroun,Centre,Organiques,130.88,2956.22,Faible,Enfouissement,2023-12-21,191.29,Non,Carton DASRI,Non,CleanMed,Maternité
+152,Hopital_32,Bénin,Littoral,Radioactifs,425.46,102087.51,Élevé,Incinération,2024-01-27,15.13,En attente,Sac jaune,Oui,SafeWaste,Oncologie
+630,Hopital_45,Sénégal,Sud-Ouest,Infectieux,344.17,73554.72,Élevé,Incinération,2024-05-19,189.63,Oui,Carton DASRI,Non,CleanMed,Maladies Infectieuses
+623,Hopital_12,Cameroun,Littoral,Piqûres/Coupures,441.85,102006.33,Élevé,Incinération,2024-08-30,245.9,Oui,Conteneur rigide,Non,BioLogistics,Vaccination
+208,Hopital_12,Gabon,Sud-Ouest,Chimiques,289.22,30411.88,Moyen,Désinfection chimique,2024-11-03,10.14,Partielle,Carton DASRI,Non,,Maintenance
+549,Hopital_31,Togo,Ouest,Infectieux,170.85,42264.67,Élevé,Incinération,2024-04-19,28.51,Partielle,Sac jaune,Non,SafeWaste,Urgences
+608,Hopital_36,Bénin,Ouest,Organiques,289.06,5765.06,Faible,Enfouissement,2024-01-31,39.02,Oui,Fût,Non,CleanMed,Restauration
+100,Hopital_7,Sénégal,Extrême-Nord,Infectieux,218.99,53532.75,Élevé,Incinération,2024-08-02,91.37,Oui,Sac jaune,Non,,Maladies Infectieuses
+516,Hopital_32,Côte d'Ivoire,Ouest,Radioactifs,338.88,71229.82,Élevé,Incinération,2024-09-04,43.52,Oui,Sac rouge,Non,Hopital Service,Oncologie
+245,Hopital_9,Sénégal,Ouest,Chimiques,264.17,28717.22,Moyen,Désinfection chimique,2024-09-22,210.63,,Conteneur rigide,Non,SafeWaste,Maintenance
+521,Hopital_16,Cameroun,Sud-Ouest,Pharmaceutiques,227.55,33337.04,Moyen,Incinération,2024-07-02,220.63,Non,Carton DASRI,Non,CleanMed,Soins Palliatifs
+52,Hopital_20,Cameroun,Nord,Organiques,30.22,685.93,Faible,Enfouissement,2024-05-01,219.44,Partielle,Sac rouge,Non,EcoTrans,Restauration
+206,Hopital_49,Sénégal,Sud-Ouest,Chimiques,144.28,15490.72,Moyen,Désinfection chimique,2023-05-29,156.61,,Sac rouge,Non,BioLogistics,Maintenance
+579,Hopital_49,Cameroun,Extrême-Nord,Piqûres/Coupures,20.69,4455.9,Élevé,Incinération,2023-08-09,83.2,Partielle,Fût,Non,SafeWaste,Urgences
+110,Hopital_35,Bénin,Nord,Organiques,29.47,670.54,Faible,Enfouissement,2024-09-30,158.26,Non,Fût,Non,,Restauration
+262,Hopital_39,RDC,Centre,Chimiques,168.27,17168.87,Moyen,Désinfection chimique,2024-05-08,166.66,Non,Sac rouge,Non,,Maintenance
+35,Hopital_15,Côte d'Ivoire,Est,Chimiques,178.39,18539.12,Moyen,Désinfection chimique,2024-02-18,26.56,Non,Carton DASRI,Non,EcoTrans,Laboratoire
+637,Hopital_23,Côte d'Ivoire,Centre,Chimiques,140.1,13968.05,Moyen,Désinfection chimique,2024-09-28,125.3,En attente,Conteneur rigide,Non,BioLogistics,Maintenance
+213,Hopital_37,RDC,Sud-Ouest,Radioactifs,266.98,55363.01,Élevé,Incinération,2024-02-18,45.38,Partielle,Sac jaune,Non,Hopital Service,Radiologie
+129,Hopital_44,Côte d'Ivoire,Sud-Ouest,Piqûres/Coupures,450.02,50275.04,Élevé,Autoclave,2023-05-20,66.29,Oui,Sac rouge,Non,CleanMed,Chirurgie
+190,Hopital_3,Sénégal,Ouest,Piqûres/Coupures,492.51,115363.38,Élevé,Incinération,2024-06-13,72.69,,Sac rouge,Non,,Urgences
+377,Hopital_3,RDC,Ouest,Chimiques,316.02,30528.29,Moyen,Désinfection chimique,2023-06-04,108.1,Non,Sac jaune,Non,Hopital Service,Laboratoire
+14,Hopital_40,Togo,Sud-Ouest,Infectieux,380.73,49789.7,Élevé,Autoclave,2024-12-04,241.2,Non,Sac rouge,Non,EcoTrans,Maladies Infectieuses
+5,Hopital_8,Togo,Sud,Piqûres/Coupures,102.81,22124.25,Élevé,Incinération,2024-09-29,186.88,Oui,Sac jaune,Non,BioLogistics,Chirurgie
+33,Hopital_28,RDC,Centre,Chimiques,2.61,317.13,Moyen,Désinfection chimique,2023-03-24,83.37,,Carton DASRI,Non,BioLogistics,Maintenance
+326,Hopital_8,RDC,Sud,Piqûres/Coupures,249.63,57368.94,Élevé,Incinération,2024-06-02,227.97,Non,Sac jaune,Non,BioLogistics,Soins Intensifs
+226,Hopital_2,Bénin,Ouest,Radioactifs,327.49,80298.24,Élevé,Incinération,2024-01-22,146.82,Partielle,Sac rouge,Non,,Oncologie
+642,Hopital_47,Côte d'Ivoire,Adamaoua,Piqûres/Coupures,338.73,80380.77,Élevé,Incinération,2023-11-05,153.46,Oui,Sac rouge,Non,CleanMed,Chirurgie
+643,Hopital_12,Sénégal,Extrême-Nord,Pharmaceutiques,414.41,64173.7,Moyen,Incinération,2023-09-27,109.21,Partielle,Fût,Non,Hopital Service,Pharmacie
+499,Hopital_26,Côte d'Ivoire,Adamaoua,Piqûres/Coupures,300.94,67878.0,Élevé,Incinération,2023-02-03,195.9,En attente,Sac rouge,Non,Hopital Service,Urgences
+437,Hopital_37,Gabon,Extrême-Nord,Organiques,477.58,8947.43,Faible,Enfouissement,2024-04-10,80.55,Oui,Conteneur rigide,Non,BioLogistics,Maternité
+82,Hopital_14,RDC,Adamaoua,Chimiques,13.07,1221.85,Moyen,Désinfection chimique,2023-05-13,89.78,Oui,Conteneur rigide,Non,,Laboratoire
+295,Hopital_24,Bénin,Ouest,Chimiques,152.67,16169.42,Moyen,Désinfection chimique,2023-04-25,52.85,,Conteneur rigide,Non,EcoTrans,Laboratoire
+671,Hopital_45,Cameroun,Nord,Piqûres/Coupures,250.81,61487.03,Élevé,Incinération,2024-07-30,130.51,Oui,Sac jaune,Non,SafeWaste,Chirurgie
+191,Hopital_39,Côte d'Ivoire,Extrême-Nord,Chimiques,386.23,42280.79,Moyen,Désinfection chimique,2024-11-27,220.8,Partielle,Fût,Non,,Laboratoire
+692,Hopital_41,Bénin,Extrême-Nord,Pharmaceutiques,62.34,9502.43,Moyen,Incinération,2023-01-30,87.99,,Carton DASRI,Non,CleanMed,Pharmacie
+542,Hopital_40,Bénin,Extrême-Nord,Infectieux,301.87,33457.69,Élevé,Autoclave,2024-06-24,245.47,Partielle,Carton DASRI,Non,Hopital Service,Maladies Infectieuses
+141,Hopital_5,Sénégal,Adamaoua,Radioactifs,327.43,73541.18,Élevé,Incinération,2023-01-04,233.88,Oui,Sac jaune,Non,Hopital Service,Oncologie
+137,Hopital_47,Togo,Ouest,Radioactifs,130.82,30535.35,Élevé,Incinération,2024-03-21,31.77,Oui,Fût,Non,CleanMed,Oncologie
+279,Hopital_49,RDC,Ouest,Chimiques,249.63,24878.82,Moyen,Désinfection chimique,2023-09-17,239.27,Partielle,Sac rouge,Non,CleanMed,Laboratoire
+46,Hopital_25,Sénégal,Centre,Infectieux,338.56,71010.96,Élevé,Incinération,2024-07-07,73.42,Oui,Sac jaune,Non,EcoTrans,Urgences
+19,Hopital_24,Togo,Extrême-Nord,Pharmaceutiques,184.6,29481.4,Moyen,Incinération,2024-01-17,198.62,Oui,Conteneur rigide,Non,CleanMed,Pharmacie
+410,Hopital_13,Gabon,Sud,Organiques,54.9,1173.64,Faible,Enfouissement,2023-09-19,119.02,Partielle,Sac rouge,Non,SafeWaste,Services Généraux
+383,Hopital_40,Côte d'Ivoire,Extrême-Nord,Organiques,192.87,3688.59,Faible,Enfouissement,2023-05-31,6.08,Partielle,Sac rouge,Non,CleanMed,Restauration
+359,Hopital_30,Gabon,Centre,Pharmaceutiques,415.86,58721.87,Moyen,Incinération,2024-10-27,240.22,Oui,Fût,Non,Hopital Service,Pharmacie
+562,Hopital_34,Bénin,Littoral,Pharmaceutiques,135.85,20262.76,Moyen,Incinération,2023-11-13,219.33,Oui,Sac rouge,Non,SafeWaste,Pharmacie
+412,Hopital_36,RDC,Littoral,Piqûres/Coupures,401.49,96671.5,Élevé,Incinération,2023-01-15,204.68,Non,Sac jaune,Non,SafeWaste,Urgences
+28,Hopital_44,Cameroun,Adamaoua,Infectieux,443.21,95598.83,Élevé,Incinération,2024-08-26,174.17,Partielle,Conteneur rigide,Oui,,Chirurgie
+390,Hopital_23,Côte d'Ivoire,Sud-Ouest,Radioactifs,317.42,75851.15,Élevé,Incinération,2024-03-30,25.4,Non,Sac jaune,Non,EcoTrans,Radiologie
+214,Hopital_49,Cameroun,Centre,Pharmaceutiques,79.82,11245.81,Moyen,Incinération,2024-08-10,84.92,Oui,Conteneur rigide,Non,SafeWaste,Oncologie
+225,Hopital_19,Côte d'Ivoire,Sud,Infectieux,249.63,54253.68,Élevé,Incinération,2023-04-04,131.89,Partielle,Sac jaune,Non,EcoTrans,Urgences
+672,Hopital_4,Cameroun,Ouest,Chimiques,397.46,41206.7,Moyen,Désinfection chimique,2023-05-12,167.37,Non,Sac rouge,Non,,Laboratoire
+172,Hopital_42,Gabon,Nord,Chimiques,32.07,3243.33,Moyen,Désinfection chimique,2023-11-03,190.63,Partielle,Fût,Non,EcoTrans,Laboratoire
+602,Hopital_48,Gabon,Ouest,Chimiques,143.61,13234.61,Moyen,Désinfection chimique,2023-04-21,119.92,En attente,Carton DASRI,Non,BioLogistics,Laboratoire
+298,Hopital_11,Gabon,Ouest,Organiques,435.73,8764.78,Faible,Enfouissement,2024-02-03,208.72,Oui,Carton DASRI,Non,SafeWaste,Restauration
+119,Hopital_9,Bénin,Centre,Chimiques,388.58,36408.89,Moyen,Désinfection chimique,2024-02-14,125.5,Non,Conteneur rigide,Non,SafeWaste,Laboratoire
+148,Hopital_15,Togo,Sud,Pharmaceutiques,57.93,9003.83,Moyen,Incinération,2024-08-05,152.43,En attente,Carton DASRI,Non,SafeWaste,Pharmacie
+363,Hopital_35,Cameroun,Adamaoua,Chimiques,454.9,49301.83,Moyen,Désinfection chimique,2024-07-21,214.63,Partielle,Sac rouge,Non,Hopital Service,Laboratoire
+163,Hopital_43,Bénin,Sud,Radioactifs,242.86,53553.15,Élevé,Incinération,2023-01-13,170.99,Partielle,Conteneur rigide,Non,BioLogistics,Radiologie
+413,Hopital_45,Togo,Ouest,Pharmaceutiques,286.45,39543.47,Moyen,Incinération,2023-05-12,24.94,En attente,Fût,Non,Hopital Service,Soins Palliatifs
+415,Hopital_1,Côte d'Ivoire,Ouest,Radioactifs,147.45,30587.89,Élevé,Incinération,2024-11-19,113.7,Oui,Conteneur rigide,Non,SafeWaste,Radiologie
+131,Hopital_22,Bénin,Sud-Ouest,Pharmaceutiques,332.23,46797.14,Moyen,Incinération,2024-01-21,141.32,Non,Sac jaune,Non,CleanMed,Pharmacie
+153,Hopital_39,Gabon,Centre,Chimiques,281.05,29722.4,Moyen,Désinfection chimique,2024-02-21,37.7,Partielle,Fût,Non,BioLogistics,Oncologie
+258,Hopital_7,Gabon,Est,Radioactifs,230.17,53373.35,Élevé,Incinération,2023-02-28,130.51,Non,Fût,Non,CleanMed,Oncologie
+651,Hopital_13,Gabon,Ouest,Infectieux,384.69,90421.71,Élevé,Incinération,2023-05-22,11.37,En attente,Fût,Non,BioLogistics,Laboratoire
+450,Hopital_35,Côte d'Ivoire,Littoral,Chimiques,61.39,5670.34,Moyen,Désinfection chimique,2024-07-16,82.61,Oui,Sac jaune,Non,SafeWaste,Laboratoire
+158,Hopital_37,RDC,Ouest,Pharmaceutiques,34.77,5772.92,Moyen,Incinération,2024-08-29,65.22,,Conteneur rigide,Non,SafeWaste,Pharmacie
+108,Hopital_17,Togo,Littoral,Radioactifs,478.35,109068.39,Élevé,Incinération,2024-02-16,100.66,Non,Carton DASRI,Non,Hopital Service,Radiologie
+433,Hopital_42,Cameroun,Nord,Pharmaceutiques,357.3,49201.3,Moyen,Incinération,2023-08-12,130.51,,Conteneur rigide,Non,Hopital Service,Pharmacie
+243,Hopital_16,Cameroun,Adamaoua,Organiques,7.29,176.04,Faible,Enfouissement,2023-01-20,61.4,En attente,Carton DASRI,Non,,Restauration
+693,Hopital_39,Bénin,Est,Infectieux,444.44,48439.37,Élevé,Autoclave,2023-10-22,144.59,Oui,Conteneur rigide,Non,SafeWaste,Urgences
+238,Hopital_34,Gabon,Adamaoua,Infectieux,317.7,36668.28,Élevé,Autoclave,2024-07-01,90.77,,Sac rouge,Non,,Urgences
+394,Hopital_2,Gabon,Ouest,Radioactifs,236.77,53615.62,Élevé,Incinération,2024-03-22,85.74,Partielle,Carton DASRI,Non,BioLogistics,Radiologie
+78,Hopital_31,Sénégal,Littoral,Organiques,93.05,1903.41,Faible,Enfouissement,2024-04-01,111.08,En attente,Sac rouge,Non,EcoTrans,Services Généraux
+293,Hopital_3,RDC,Adamaoua,Organiques,107.11,2166.45,Faible,Enfouissement,2023-07-04,168.85,Non,Sac jaune,Non,Hopital Service,Maternité
+60,Hopital_14,Bénin,Nord,Chimiques,164.77,16065.0,Moyen,Désinfection chimique,2024-07-11,130.51,,Fût,Non,EcoTrans,Laboratoire
+319,Hopital_33,Cameroun,Ouest,Pharmaceutiques,429.31,62943.45,Moyen,Incinération,2024-10-13,181.16,Oui,Sac rouge,Non,SafeWaste,Pharmacie
+292,Hopital_16,Côte d'Ivoire,Adamaoua,Radioactifs,153.35,35024.34,Élevé,Incinération,2024-03-17,229.01,Non,Conteneur rigide,Oui,,Radiologie
+537,Hopital_37,Gabon,Sud-Ouest,Piqûres/Coupures,450.14,94252.19,Élevé,Incinération,2023-03-13,227.9,En attente,Carton DASRI,Non,EcoTrans,Chirurgie
+439,Hopital_8,Côte d'Ivoire,Sud,Radioactifs,1.78,471.77,Élevé,Incinération,2023-11-05,132.67,En attente,Conteneur rigide,Non,BioLogistics,Radiologie
+194,Hopital_27,Bénin,Est,Organiques,232.5,4834.05,Faible,Enfouissement,2024-10-26,162.14,,Fût,Non,BioLogistics,Restauration
+654,Hopital_9,Togo,Centre,Chimiques,423.11,38822.95,Moyen,Désinfection chimique,2024-04-26,213.28,Oui,Conteneur rigide,Non,Hopital Service,Laboratoire
+388,Hopital_47,Côte d'Ivoire,Extrême-Nord,Infectieux,372.05,88919.67,Élevé,Incinération,2023-12-21,151.86,Partielle,Sac jaune,Oui,BioLogistics,Chirurgie
+354,Hopital_35,RDC,Adamaoua,Infectieux,291.82,69529.7,Élevé,Incinération,2023-12-12,80.58,En attente,Sac jaune,Non,CleanMed,Urgences
+268,Hopital_25,Cameroun,Extrême-Nord,Pharmaceutiques,71.84,10299.39,Moyen,Incinération,2024-04-20,32.68,Oui,Sac rouge,Non,SafeWaste,Pharmacie
+103,Hopital_1,RDC,Sud,Infectieux,80.3,9641.0,Élevé,Autoclave,2023-07-02,116.66,Non,Carton DASRI,Non,BioLogistics,Maladies Infectieuses
+543,Hopital_10,Togo,Nord,Infectieux,413.53,47401.15,Élevé,Autoclave,2024-10-05,158.5,Oui,Sac jaune,Non,CleanMed,Laboratoire
+263,Hopital_18,Bénin,Ouest,Piqûres/Coupures,87.71,11186.75,Élevé,Autoclave,2024-11-06,51.02,Oui,Sac jaune,Non,,Chirurgie
+105,Hopital_8,Bénin,Sud-Ouest,Pharmaceutiques,68.54,9725.63,Moyen,Incinération,2023-09-21,145.31,Partielle,Carton DASRI,Non,CleanMed,Pharmacie
+535,Hopital_33,Cameroun,Littoral,Organiques,229.8,4910.5,Moyen,Enfouissement,2023-02-23,129.63,,Conteneur rigide,Non,Hopital Service,Maternité
+124,Hopital_48,Bénin,Ouest,Chimiques,453.31,48939.25,Moyen,Désinfection chimique,2024-11-20,214.53,En attente,Sac jaune,Non,EcoTrans,Laboratoire
+91,Hopital_26,Sénégal,Ouest,Infectieux,421.12,93450.55,Élevé,Incinération,2024-02-24,187.2,Partielle,Sac rouge,Non,BioLogistics,Urgences
