@@ -264,6 +264,14 @@
             </li>
             <li class="nav-item">
               <a
+                class="nav-link {% if request.endpoint == 'future.index' %}active{% endif %}"
+                href="/planification-future"
+              >
+                <i class="fas fa-calendar-alt"></i> Planification Future
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
                 class="nav-link {% if request.endpoint == 'data' %}active{% endif %}"
                 href="/data"
               >
